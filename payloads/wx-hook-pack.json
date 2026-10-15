@@ -1,0 +1,19 @@
+{
+  "features": [
+    { "id": "mini_program", "description": "小程序 AppBrand", "anyStrings": ["appbrand", "MicroMsg.AppBrand", "appbrandservice"], "classHints": ["AppBrand", "AppBrandUI"] },
+    { "id": "pay_wallet", "description": "支付 / 钱包 Wallet", "anyStrings": ["MicroMsg.Wallet", "Tenpay", "MallWallet"], "classHints": ["Wallet", "Tenpay"] },
+    { "id": "scan_qrcode", "description": "扫一扫 ScanCode", "anyStrings": ["scancode", "MicroMsg.ScanCode", "ScanCodeReport"], "classHints": ["ScanCode"] },
+    { "id": "chatroom", "description": "群聊 Chatroom", "anyStrings": ["chatroom", "MicroMsg.Chatroom", "@chatroom"], "classHints": ["Chatroom"] },
+    { "id": "favorites", "description": "收藏 Favorites", "anyStrings": ["MicroMsg.Favorite", "FavoritesItem", "favitem"], "classHints": ["Favorite"] },
+    { "id": "card_package", "description": "卡包 CardPackage", "anyStrings": ["MicroMsg.CardPackage", "cardpackage", "CardItem"], "classHints": ["CardPackage"] },
+    { "id": "voice_msg", "description": "语音消息", "anyStrings": ["MicroMsg.VoiceMsg", "voice2text", "MediaVoiceItem"], "classHints": ["Voice"] },
+    { "id": "location_share", "description": "位置 / 实时位置共享", "anyStrings": ["MicroMsg.Location", "locationLive", "LbsInfo"], "classHints": ["Location"] },
+    { "id": "shake", "description": "摇一摇", "anyStrings": ["MicroMsg.Shake", "shake", "ShakeActivity"], "classHints": ["Shake"] },
+    { "id": "sticker", "description": "表情商店 Sticker", "anyStrings": ["MicroMsg.Sticker", "StickerInfo", "emoticon"], "classHints": ["Sticker", "Emoji"] },
+    { "id": "game_center", "description": "游戏中心", "anyStrings": ["MicroMsg.Game", "gamecenter", "GameCenter"], "classHints": ["Game"] },
+    { "id": "moments_video", "description": "朋友圈视频", "anyStrings": ["SnsUpload", "snsVideoInfo", "MicroMsg.SnsUpload"], "classHints": ["SnsUpload"] },
+    { "id": "login_auth", "description": "登录 / 授权", "anyStrings": ["MicroMsg.Login", "authInfo", "LoginUI"], "classHints": ["Login"] },
+    { "id": "profile_more", "description": "资料多开 / 账号切换", "anyStrings": ["MicroMsg.AccountSwitch", "switchAccount", "AccountSync"], "classHints": ["AccountSwitch"] },
+    { "id": "db_index", "description": "数据库索引表（MsgInfo/Contact）", "allStrings": ["message"], "anyStrings": ["MsgInfo", "Contact", "ImgInfo2"], "classHints": ["SQLite", "Database"] }
+  ]
+}
