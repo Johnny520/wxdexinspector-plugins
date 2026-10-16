@@ -4,37 +4,117 @@
   "note": "WxDexInspector 插件商店索引。仅收录合规的静态分析增强插件（特征/规则数据），不收录破解、脱壳、重打包、篡改类内容。",
   "plugins": [
     {
-      "id": "hardening-pack-community",
-      "name": "加固特征库增强包（社区汇总）",
-      "author": "社区汇总（参考 ApkCheckPack / 公开加固特征表）",
-      "version": "2026.10",
+      "id": "hardening-pack-cn",
+      "name": "国内加固特征库（腾讯乐固·360·爱加密·梆梆等）",
+      "author": "社区汇总 / WxDexInspector",
+      "version": "2026.10.16",
       "type": "hardening_pack",
-      "description": "汇总 40+ 家加固厂商的 so 文件名 / 类名特征，显著提升加固识别覆盖率。仅静态字符串匹配，不做任何脱壳。",
-      "url": "https://raw.githubusercontent.com/Johnny520/wxdexinspector-plugins/main/payloads/hardening-pack.json",
-      "size": 4200,
-      "tags": ["加固", "特征库", "静态识别"]
+      "description": "覆盖国内主流加固/壳厂商的 so 文件名与类名子串特征，用于静态识别 APK 是否加壳及厂商归属。",
+      "url": "https://raw.githubusercontent.com/Johnny520/wxdexinspector-plugins/main/payloads/hardening-pack-cn.json",
+      "size": 11176,
+      "tags": [
+        "加固",
+        "国内厂商",
+        "特征库",
+        "静态识别"
+      ]
     },
     {
-      "id": "sdk-pack-common",
-      "name": "第三方 SDK / 广告 SDK 特征包",
+      "id": "hardening-global-pack",
+      "name": "海外/开源壳与混淆器特征包（DexProtector·AppSealing·Arxan等）",
+      "author": "社区汇总 / WxDexInspector",
+      "version": "2026.10.16",
+      "type": "hardening_pack",
+      "description": "覆盖海外及商业壳/混淆器（DexProtector、AppSealing、AppGuard、Arxan、Google Play PairIP 等）的静态特征。",
+      "url": "https://raw.githubusercontent.com/Johnny520/wxdexinspector-plugins/main/payloads/hardening-global-pack.json",
+      "size": 4160,
+      "tags": [
+        "加固",
+        "海外",
+        "混淆器",
+        "静态识别"
+      ]
+    },
+    {
+      "id": "sdk-pack-ads",
+      "name": "广告/统计/推送 SDK 特征包（穿山甲·优量汇·友盟·极光等）",
       "author": "社区汇总",
-      "version": "2026.10",
+      "version": "2026.10.16",
       "type": "sdk_pack",
-      "description": "扩展第三方 SDK 与广告 SDK 的类名前缀特征（广告、推送、统计、支付、地图、音视频等 30+ 组）。",
-      "url": "https://raw.githubusercontent.com/Johnny520/wxdexinspector-plugins/main/payloads/sdk-pack.json",
-      "size": 2600,
-      "tags": ["SDK", "广告", "静态识别"]
+      "description": "广告联盟、统计归因、消息推送三大类 SDK 的类名前缀特征，覆盖国内外 70+ 组。",
+      "url": "https://raw.githubusercontent.com/Johnny520/wxdexinspector-plugins/main/payloads/sdk-pack-ads.json",
+      "size": 7330,
+      "tags": [
+        "SDK",
+        "广告",
+        "统计",
+        "推送"
+      ]
     },
     {
-      "id": "wx-hook-pack-extra",
-      "name": "微信 Hook 特征扩展包",
+      "id": "sdk-pack-lib",
+      "name": "综合 SDK 特征包（支付·地图·IM·音视频·框架·热修复）",
+      "author": "社区汇总",
+      "version": "2026.10.16",
+      "type": "sdk_pack",
+      "description": "支付、地图定位、IM/音视频、网络序列化、图片、框架、热修复、插件化、数据库、风控安全、崩溃监控、云服务与工具类库的类名前缀特征。",
+      "url": "https://raw.githubusercontent.com/Johnny520/wxdexinspector-plugins/main/payloads/sdk-pack-lib.json",
+      "size": 16785,
+      "tags": [
+        "SDK",
+        "支付",
+        "地图",
+        "音视频",
+        "框架"
+      ]
+    },
+    {
+      "id": "wx-hook-core",
+      "name": "微信 Hook 核心特征包（CGI·进程·数据库·消息 XML·ID 前缀）",
       "author": "WxDexInspector",
-      "version": "2026.10",
+      "version": "2026.10.16",
       "type": "hook_pack",
-      "description": "为内置微信特征库补充小程序、支付、扫一扫、群聊、收藏、卡包等场景的特征串，提高 Hook 候选命中率。",
-      "url": "https://raw.githubusercontent.com/Johnny520/wxdexinspector-plugins/main/payloads/wx-hook-pack.json",
-      "size": 2200,
-      "tags": ["微信", "Hook", "特征串"]
+      "description": "微信核心：聚合 CGI 接口、进程名、数据库表/列名、特殊账号 ID 前缀后缀、scheme 与消息 XML 字段等静态特征。",
+      "url": "https://raw.githubusercontent.com/Johnny520/wxdexinspector-plugins/main/payloads/wx-hook-core.json",
+      "size": 20032,
+      "tags": [
+        "微信",
+        "Hook",
+        "CGI",
+        "数据库"
+      ]
+    },
+    {
+      "id": "wx-hook-feature",
+      "name": "微信业务功能 Hook 特征包（小程序·支付·视频号·朋友圈·扫一扫）",
+      "author": "WxDexInspector",
+      "version": "2026.10.16",
+      "type": "hook_pack",
+      "description": "微信业务功能：小程序、支付/红包、视频号/直播、朋友圈、扫一扫、收藏、卡包、游戏、公众号、X5 内核、资源更新等场景特征。",
+      "url": "https://raw.githubusercontent.com/Johnny520/wxdexinspector-plugins/main/payloads/wx-hook-feature.json",
+      "size": 13715,
+      "tags": [
+        "微信",
+        "Hook",
+        "业务功能",
+        "小程序"
+      ]
+    },
+    {
+      "id": "wx-hook-environment",
+      "name": "微信安全/环境检测 Hook 特征包（风控 CGI·反调试·Root/模拟器/Xposed/Frida）",
+      "author": "WxDexInspector",
+      "version": "2026.10.16",
+      "type": "hook_pack",
+      "description": "微信安全与环境检测：风控 CGI、反调试、Root/模拟器/Xposed/Frida 检测、签名校验与设备绑定等静态特征串。",
+      "url": "https://raw.githubusercontent.com/Johnny520/wxdexinspector-plugins/main/payloads/wx-hook-environment.json",
+      "size": 7366,
+      "tags": [
+        "微信",
+        "Hook",
+        "环境检测",
+        "风控"
+      ]
     }
   ]
 }

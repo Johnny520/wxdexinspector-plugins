@@ -1,0 +1,420 @@
+{
+ "features": [
+  {
+   "id": "env_cgi_reportclientcheck",
+   "description": "风控上报 reportclientcheck",
+   "anyStrings": [
+    "/cgi-bin/micromsg-bin/reportclientcheck"
+   ],
+   "classHints": [
+    "ReportClientCheck"
+   ]
+  },
+  {
+   "id": "env_cgi_secautoauth",
+   "description": "安全自动鉴权 secautoauth",
+   "anyStrings": [
+    "/cgi-bin/micromsg-bin/secautoauth"
+   ],
+   "classHints": [
+    "SecAutoAuth"
+   ]
+  },
+  {
+   "id": "env_cgi_getboundharddevices",
+   "description": "设备绑定查询 getboundharddevices",
+   "anyStrings": [
+    "/cgi-bin/micromsg-bin/getboundharddevices"
+   ],
+   "classHints": [
+    "BoundHardDevice"
+   ]
+  },
+  {
+   "id": "env_cgi_bind_iot",
+   "description": "IoT 设备绑定查询",
+   "anyStrings": [
+    "/cgi-bin/micromsg-bin/get_user_bind_iot_device_info"
+   ],
+   "classHints": [
+    "BindIotDevice"
+   ]
+  },
+  {
+   "id": "env_cgi_fcmreg",
+   "description": "FCM 注册上报 androidfcmreg",
+   "anyStrings": [
+    "/cgi-bin/micromsg-bin/androidfcmreg"
+   ],
+   "classHints": [
+    "FcmReg"
+   ]
+  },
+  {
+   "id": "env_tracerpid",
+   "description": "反调试 TracerPid",
+   "anyStrings": [
+    "tracerpid",
+    "/proc/self/status"
+   ],
+   "classHints": [
+    "AntiDebug"
+   ]
+  },
+  {
+   "id": "env_proc_maps",
+   "description": "反调试 /proc/self/maps",
+   "anyStrings": [
+    "/proc/self/maps",
+    "/proc/self/wchan"
+   ],
+   "classHints": [
+    "AntiDebug"
+   ]
+  },
+  {
+   "id": "env_ptrace",
+   "description": "反调试 ptrace",
+   "anyStrings": [
+    "ptrace",
+    "isDebuggerConnected"
+   ],
+   "classHints": [
+    "AntiDebug"
+   ]
+  },
+  {
+   "id": "env_su_path",
+   "description": "Root 检测 su 路径",
+   "anyStrings": [
+    "/system/bin/su",
+    "/system/xbin/su",
+    "/sbin/su",
+    "/system/sd/xbin/su",
+    "/data/local/su",
+    "/data/local/bin/su"
+   ],
+   "classHints": [
+    "RootCheck"
+   ]
+  },
+  {
+   "id": "env_su_busybox",
+   "description": "Root 检测 busybox",
+   "anyStrings": [
+    "busybox"
+   ],
+   "classHints": [
+    "RootCheck"
+   ]
+  },
+  {
+   "id": "env_superuser_apk",
+   "description": "Root 检测 Superuser 应用",
+   "anyStrings": [
+    "Superuser.apk",
+    "com.noshufou.android.su",
+    "com.koushikdutta.superuser",
+    "eu.chainfire.supersu",
+    "com.thirdparty.superuser"
+   ],
+   "classHints": [
+    "RootCheck"
+   ]
+  },
+  {
+   "id": "env_magisk",
+   "description": "Root 检测 Magisk",
+   "anyStrings": [
+    "magisk",
+    "com.topjohnwu.magisk"
+   ],
+   "classHints": [
+    "RootCheck"
+   ]
+  },
+  {
+   "id": "env_root_pkg",
+   "description": "Root 管理应用包名",
+   "anyStrings": [
+    "com.kingroot.kinguser",
+    "com.qihoo.root",
+    "me.weishu.kernelsu"
+   ],
+   "classHints": [
+    "RootCheck"
+   ]
+  },
+  {
+   "id": "env_emulator_goldfish",
+   "description": "模拟器检测 goldfish/ranchu",
+   "anyStrings": [
+    "goldfish",
+    "ranchu",
+    "generic_x86"
+   ],
+   "classHints": [
+    "EmulatorCheck"
+   ]
+  },
+  {
+   "id": "env_emulator_brand",
+   "description": "模拟器检测品牌",
+   "anyStrings": [
+    "Genymotion",
+    "vbox86p",
+    "BlueStacks",
+    "nox",
+    "TTVM_Hdragon",
+    "Droid4X",
+    "microvirt"
+   ],
+   "classHints": [
+    "EmulatorCheck"
+   ]
+  },
+  {
+   "id": "env_emulator_sdk",
+   "description": "模拟器检测 SDK 标识",
+   "anyStrings": [
+    "sdk_gphone",
+    "Android SDK built for",
+    "google_sdk"
+   ],
+   "classHints": [
+    "EmulatorCheck"
+   ]
+  },
+  {
+   "id": "env_emulator_qemu",
+   "description": "模拟器检测 ro.kernel.qemu",
+   "anyStrings": [
+    "ro.kernel.qemu",
+    "init.svc.ranchu"
+   ],
+   "classHints": [
+    "EmulatorCheck"
+   ]
+  },
+  {
+   "id": "env_xposed",
+   "description": "Xposed 检测",
+   "anyStrings": [
+    "de.robv.android.xposed.XposedBridge",
+    "xposedbridge",
+    "xposedhelpers",
+    "de.robv.android.xposed",
+    "XposedInstaller"
+   ],
+   "classHints": [
+    "XposedCheck"
+   ]
+  },
+  {
+   "id": "env_substrate",
+   "description": "Cydia Substrate 检测",
+   "anyStrings": [
+    "com.saurik.substrate",
+    "substrate"
+   ],
+   "classHints": [
+    "SubstrateCheck"
+   ]
+  },
+  {
+   "id": "env_frida",
+   "description": "Frida 检测",
+   "anyStrings": [
+    "frida",
+    "frida-server",
+    "frida-agent",
+    "libfrida-gadget",
+    "frida-gum"
+   ],
+   "classHints": [
+    "FridaCheck"
+   ]
+  },
+  {
+   "id": "env_frida_thread",
+   "description": "Frida 线程特征",
+   "anyStrings": [
+    "gum-js-loop",
+    "gmain",
+    "linjector",
+    "re.frida.server"
+   ],
+   "classHints": [
+    "FridaCheck"
+   ]
+  },
+  {
+   "id": "env_hook_framework",
+   "description": "Hook 框架检测",
+   "anyStrings": [
+    "epic",
+    "yeet",
+    "SandHook",
+    "Pine",
+    "LSPlant"
+   ],
+   "classHints": [
+    "HookCheck"
+   ]
+  },
+  {
+   "id": "env_ro_debuggable",
+   "description": "系统属性调试检测",
+   "anyStrings": [
+    "ro.debuggable",
+    "ro.secure",
+    "test-keys"
+   ],
+   "classHints": [
+    "SystemPropCheck"
+   ]
+  },
+  {
+   "id": "env_signature",
+   "description": "签名校验",
+   "anyStrings": [
+    "getSigndigest",
+    "signatureVerify",
+    "MMSignature",
+    "getSignature"
+   ],
+   "classHints": [
+    "SignatureCheck"
+   ]
+  },
+  {
+   "id": "env_class_crc",
+   "description": "DEX 完整性校验",
+   "anyStrings": [
+    "checkDexSum",
+    "crc32",
+    "dexCrc"
+   ],
+   "classHints": [
+    "IntegrityCheck"
+   ]
+  },
+  {
+   "id": "env_hard_device",
+   "description": "硬设备信息 HardDeviceInfo",
+   "anyStrings": [
+    "HardDeviceInfo",
+    "harddevice"
+   ],
+   "classHints": [
+    "HardDevice"
+   ]
+  },
+  {
+   "id": "env_device_bind",
+   "description": "设备绑定/解绑",
+   "anyStrings": [
+    "bindHardDevice",
+    "unbindHardDevice",
+    "deviceGuid"
+   ],
+   "classHints": [
+    "HardDevice"
+   ]
+  },
+  {
+   "id": "env_uuid_imei",
+   "description": "设备标识采集",
+   "anyStrings": [
+    "getDeviceId",
+    "android_id",
+    "oaid"
+   ],
+   "classHints": [
+    "DeviceInfo"
+   ]
+  },
+  {
+   "id": "env_proc_list",
+   "description": "进程/文件扫描检测",
+   "anyStrings": [
+    "/proc/self/fd",
+    "/proc/net/tcp",
+    "/proc/self/cmdline"
+   ],
+   "classHints": [
+    "EnvCheck"
+   ]
+  },
+  {
+   "id": "env_port_check",
+   "description": "调试端口检测",
+   "anyStrings": [
+    "27042",
+    "27043",
+    "23946"
+   ],
+   "classHints": [
+    "AntiDebug"
+   ]
+  },
+  {
+   "id": "env_risk_control",
+   "description": "风控相关类",
+   "anyStrings": [
+    "MicroMsg.ReportClientCheck",
+    "SecReport",
+    "RiskControl"
+   ],
+   "classHints": [
+    "RiskControl"
+   ]
+  },
+  {
+   "id": "env_cgi_secdata",
+   "description": "安全数据上报",
+   "anyStrings": [
+    "sec_data",
+    "secdata",
+    "reportdevice"
+   ],
+   "classHints": [
+    "SecData"
+   ]
+  },
+  {
+   "id": "env_hook_java_stack",
+   "description": "Java 调用栈检测",
+   "anyStrings": [
+    "getStackTrace",
+    "Throwable"
+   ],
+   "classHints": [
+    "AntiHook"
+   ]
+  },
+  {
+   "id": "env_instrumentation",
+   "description": "Instrumentation 检测",
+   "anyStrings": [
+    "getInstrumentation",
+    "mInstrumentation"
+   ],
+   "classHints": [
+    "AntiHook"
+   ]
+  },
+  {
+   "id": "env_emulator_files",
+   "description": "模拟器文件检测",
+   "anyStrings": [
+    "/dev/socket/qemud",
+    "/dev/qemu_pipe",
+    "init.goldfish.rc"
+   ],
+   "classHints": [
+    "EmulatorCheck"
+   ]
+  }
+ ]
+}

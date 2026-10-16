@@ -1,0 +1,468 @@
+{
+ "sdks": [
+  {
+   "name": "广告 · 优量汇/广点通(腾讯)",
+   "prefixes": [
+    "com.qq.e."
+   ]
+  },
+  {
+   "name": "广告 · 穿山甲/Pangle(字节)",
+   "prefixes": [
+    "com.bytedance.sdk.openadsdk",
+    "com.pangle."
+   ]
+  },
+  {
+   "name": "广告 · 巨量GroMore聚合(字节)",
+   "prefixes": [
+    "com.bytedance.msdk"
+   ]
+  },
+  {
+   "name": "广告 · 字节跳动SDK通用",
+   "prefixes": [
+    "com.bytedance."
+   ]
+  },
+  {
+   "name": "广告 · 字节SS命名空间",
+   "prefixes": [
+    "com.ss.android."
+   ]
+  },
+  {
+   "name": "广告 · 百度联盟/百青藤",
+   "prefixes": [
+    "com.baidu.mobads"
+   ]
+  },
+  {
+   "name": "广告 · 百度oCPX转化追踪",
+   "prefixes": [
+    "com.baidu.mobads.proxy"
+   ]
+  },
+  {
+   "name": "广告 · 快手联盟",
+   "prefixes": [
+    "com.kwad.sdk"
+   ]
+  },
+  {
+   "name": "广告 · 快手通用",
+   "prefixes": [
+    "com.kuaishou."
+   ]
+  },
+  {
+   "name": "广告 · Mintegral(汇量科技)",
+   "prefixes": [
+    "com.mbridge.msdk"
+   ]
+  },
+  {
+   "name": "广告 · AppLovin",
+   "prefixes": [
+    "com.applovin."
+   ]
+  },
+  {
+   "name": "广告 · IronSource/Unity LevelPlay",
+   "prefixes": [
+    "com.ironsource."
+   ]
+  },
+  {
+   "name": "广告 · Unity Ads",
+   "prefixes": [
+    "com.unity3d.ads"
+   ]
+  },
+  {
+   "name": "广告 · Google AdMob",
+   "prefixes": [
+    "com.google.android.gms.ads"
+   ]
+  },
+  {
+   "name": "广告 · TopOn倍孜聚合",
+   "prefixes": [
+    "com.anythink."
+   ]
+  },
+  {
+   "name": "广告 · Sigmob(创智汇聚)",
+   "prefixes": [
+    "com.sigmob."
+   ]
+  },
+  {
+   "name": "广告 · vivo广告",
+   "prefixes": [
+    "com.vivo.mobilead"
+   ]
+  },
+  {
+   "name": "广告 · OPPO广告",
+   "prefixes": [
+    "com.oppo.mobad"
+   ]
+  },
+  {
+   "name": "广告 · 华为鲸鸿动能广告",
+   "prefixes": [
+    "com.huawei.hms.ads"
+   ]
+  },
+  {
+   "name": "广告 · 小米广告",
+   "prefixes": [
+    "com.xiaomi.ad"
+   ]
+  },
+  {
+   "name": "广告 · 荣耀广告",
+   "prefixes": [
+    "com.hihonor.ads"
+   ]
+  },
+  {
+   "name": "广告 · 京东联盟广告",
+   "prefixes": [
+    "com.jd.ad.sdk"
+   ]
+  },
+  {
+   "name": "广告 · 阿里妈妈/淘宝联盟",
+   "prefixes": [
+    "com.alimama."
+   ]
+  },
+  {
+   "name": "广告 · Facebook Audience Network",
+   "prefixes": [
+    "com.facebook.ads"
+   ]
+  },
+  {
+   "name": "广告 · Vungle(Liftoff)",
+   "prefixes": [
+    "com.vungle."
+   ]
+  },
+  {
+   "name": "广告 · MoPub",
+   "prefixes": [
+    "com.mopub."
+   ]
+  },
+  {
+   "name": "广告 · InMobi",
+   "prefixes": [
+    "com.inmobi."
+   ]
+  },
+  {
+   "name": "广告 · Chartboost",
+   "prefixes": [
+    "com.chartboost."
+   ]
+  },
+  {
+   "name": "广告 · AdColony",
+   "prefixes": [
+    "com.adcolony."
+   ]
+  },
+  {
+   "name": "广告 · Smaato",
+   "prefixes": [
+    "com.smaato.soma"
+   ]
+  },
+  {
+   "name": "广告 · Tapjoy",
+   "prefixes": [
+    "com.tapjoy."
+   ]
+  },
+  {
+   "name": "广告 · Amazon Mobile Ads",
+   "prefixes": [
+    "com.amazon.device.ads"
+   ]
+  },
+  {
+   "name": "广告 · Fyber(Digital Turbine)",
+   "prefixes": [
+    "com.fyber."
+   ]
+  },
+  {
+   "name": "广告 · Ogury",
+   "prefixes": [
+    "com.ogury."
+   ]
+  },
+  {
+   "name": "统计 · 友盟+(Umeng)",
+   "prefixes": [
+    "com.umeng."
+   ]
+  },
+  {
+   "name": "统计 · 神策数据(Sensors)",
+   "prefixes": [
+    "com.sensorsdata."
+   ]
+  },
+  {
+   "name": "统计 · GrowingIO",
+   "prefixes": [
+    "com.growingio."
+   ]
+  },
+  {
+   "name": "统计 · TalkingData",
+   "prefixes": [
+    "com.tendcloud."
+   ]
+  },
+  {
+   "name": "统计 · 百度移动统计",
+   "prefixes": [
+    "com.baidu.mobstat"
+   ]
+  },
+  {
+   "name": "统计 · 腾讯移动分析MTA",
+   "prefixes": [
+    "com.tencent.stat",
+    "com.tencent.mta"
+   ]
+  },
+  {
+   "name": "统计 · Firebase Analytics",
+   "prefixes": [
+    "com.google.firebase.analytics"
+   ]
+  },
+  {
+   "name": "统计 · Firebase 通用",
+   "prefixes": [
+    "com.google.firebase"
+   ]
+  },
+  {
+   "name": "统计 · Google Analytics(legacy)",
+   "prefixes": [
+    "com.google.android.gms.analytics"
+   ]
+  },
+  {
+   "name": "统计 · AppsFlyer归因",
+   "prefixes": [
+    "com.appsflyer."
+   ]
+  },
+  {
+   "name": "统计 · Adjust归因",
+   "prefixes": [
+    "com.adjust.sdk"
+   ]
+  },
+  {
+   "name": "统计 · Branch归因",
+   "prefixes": [
+    "io.branch."
+   ]
+  },
+  {
+   "name": "统计 · Kochava归因",
+   "prefixes": [
+    "com.kochava."
+   ]
+  },
+  {
+   "name": "统计 · Singular归因",
+   "prefixes": [
+    "com.singular.sdk"
+   ]
+  },
+  {
+   "name": "统计 · 火山引擎AppLog",
+   "prefixes": [
+    "com.bytedance.applog"
+   ]
+  },
+  {
+   "name": "统计 · 数数科技ThinkingData",
+   "prefixes": [
+    "cn.thinkingdata.android"
+   ]
+  },
+  {
+   "name": "统计 · 易观方舟",
+   "prefixes": [
+    "com.analysys."
+   ]
+  },
+  {
+   "name": "统计 · 诸葛io",
+   "prefixes": [
+    "com.zhuge.analysis"
+   ]
+  },
+  {
+   "name": "统计 · Mixpanel",
+   "prefixes": [
+    "com.mixpanel.android"
+   ]
+  },
+  {
+   "name": "统计 · Amplitude",
+   "prefixes": [
+    "com.amplitude.api"
+   ]
+  },
+  {
+   "name": "统计 · Flurry",
+   "prefixes": [
+    "com.flurry.android"
+   ]
+  },
+  {
+   "name": "统计 · Countly",
+   "prefixes": [
+    "ly.count.android.sdk"
+   ]
+  },
+  {
+   "name": "统计 · 极光统计",
+   "prefixes": [
+    "cn.jiguang.analytics"
+   ]
+  },
+  {
+   "name": "推送 · 极光推送JPush",
+   "prefixes": [
+    "cn.jpush.",
+    "cn.jiguang."
+   ]
+  },
+  {
+   "name": "推送 · 个推GeTui",
+   "prefixes": [
+    "com.igexin."
+   ]
+  },
+  {
+   "name": "推送 · 小米推送",
+   "prefixes": [
+    "com.xiaomi.mipush",
+    "com.xiaomi.push"
+   ]
+  },
+  {
+   "name": "推送 · 华为HMS推送",
+   "prefixes": [
+    "com.huawei.hms",
+    "com.huawei.android.hms"
+   ]
+  },
+  {
+   "name": "推送 · OPPO推送",
+   "prefixes": [
+    "com.heytap.msp",
+    "com.coloros.mcssdk"
+   ]
+  },
+  {
+   "name": "推送 · vivo推送",
+   "prefixes": [
+    "com.vivo.push"
+   ]
+  },
+  {
+   "name": "推送 · 荣耀推送",
+   "prefixes": [
+    "com.hihonor.push"
+   ]
+  },
+  {
+   "name": "推送 · 魅族推送",
+   "prefixes": [
+    "com.meizu.cloud.pushsdk"
+   ]
+  },
+  {
+   "name": "推送 · Google FCM",
+   "prefixes": [
+    "com.google.firebase.messaging"
+   ]
+  },
+  {
+   "name": "推送 · 腾讯TPNS/信鸽",
+   "prefixes": [
+    "com.tencent.android.tpush",
+    "com.tencent.tpns"
+   ]
+  },
+  {
+   "name": "推送 · 阿里云移动推送Agoo",
+   "prefixes": [
+    "com.taobao.agoo",
+    "com.alibaba.sdk.android.push"
+   ]
+  },
+  {
+   "name": "推送 · 百度云推送",
+   "prefixes": [
+    "com.baidu.android.pushservice"
+   ]
+  },
+  {
+   "name": "推送 · 友盟推送U-Push",
+   "prefixes": [
+    "com.umeng.message"
+   ]
+  },
+  {
+   "name": "推送 · OneSignal",
+   "prefixes": [
+    "com.onesignal."
+   ]
+  },
+  {
+   "name": "推送 · Airship",
+   "prefixes": [
+    "com.urbanairship."
+   ]
+  },
+  {
+   "name": "推送 · Braze",
+   "prefixes": [
+    "com.braze."
+   ]
+  },
+  {
+   "name": "推送 · 云巴Yunba",
+   "prefixes": [
+    "io.yunba.android"
+   ]
+  },
+  {
+   "name": "推送 · Pusher",
+   "prefixes": [
+    "com.pusher."
+   ]
+  },
+  {
+   "name": "推送 · 腾讯移动推送XMTPNS",
+   "prefixes": [
+    "com.tencent.xmtpns"
+   ]
+  }
+ ]
+}

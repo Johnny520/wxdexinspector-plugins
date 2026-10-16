@@ -1,0 +1,238 @@
+{
+ "rules": [
+  {
+   "vendor": "DexProtector (Licel)",
+   "so": [
+    "libdexprotector.so",
+    "libdp.so",
+    "libalice.so",
+    "classes.dex.dat",
+    "classes1.dex.dat",
+    "classes2.dex.dat",
+    "classes3.dex.dat",
+    "resources.dat",
+    "dp.arm.so.dat",
+    "dp.arm-v7.so.dat",
+    "dp.arm-v8.so.dat",
+    "dp.x86.so.dat",
+    "dp.x86_64.so.dat",
+    "dp.mp3",
+    "dp.arm-v7.art.kk.so",
+    "dp.arm-v7.art.l.so",
+    "dp.arm.dvm.so",
+    "dp.x86.art.kk.so",
+    "dp.x86.art.l.so",
+    "dp.x86.dvm.so"
+   ],
+   "classes": []
+  },
+  {
+   "vendor": "DexProtector (AIDE/IDE 版)",
+   "so": [
+    "eprotect.dat",
+    "dexpro-build.properties",
+    "dp-lib/dp.kotlin-v1.lua.mph",
+    "dexprotect/classes.dex.dat"
+   ],
+   "classes": []
+  },
+  {
+   "vendor": "AppSealing (INKA/DoveRunner)",
+   "so": [
+    "libcovault.so",
+    "libcovault-appsec.so",
+    "libsecureapp.so",
+    "appsealing.dex",
+    "sealed1.dex",
+    "appsealing/"
+   ],
+   "classes": []
+  },
+  {
+   "vendor": "AppGuard (appguard.us / NHN)",
+   "so": [
+    "libloader.so",
+    "libappguard.so",
+    "libappguard-x86.so",
+    "libdiresu.so",
+    "libcompatible.so",
+    "libcompatible_x86.so",
+    "appguard0.jar",
+    "appguard.dgc",
+    "appguard/",
+    "agconfig",
+    "agmetainfo",
+    "m7a",
+    "m8a",
+    "classes.sox",
+    "classes1.jet",
+    "classes1.zip",
+    "classes2.zip",
+    "classes3.zip"
+   ],
+   "classes": [
+    "com/inca/security/Proxy/AppGuardFrontApplication",
+    "com/nhnent/appguard"
+   ]
+  },
+  {
+   "vendor": "Arxan GuardIT (Digital.ai)",
+   "so": [
+    "guardit4j.fin"
+   ],
+   "classes": []
+  },
+  {
+   "vendor": "Gemalto Protector (Thales)",
+   "so": [
+    "libmedl.so"
+   ],
+   "classes": []
+  },
+  {
+   "vendor": "AndroidRepublic",
+   "so": [
+    "emt.androidrepublic/config.png",
+    "emt.androidrepublic/monkey.png",
+    "emt.androidrepublic/system.png",
+    "androidrepublic.org/"
+   ],
+   "classes": []
+  },
+  {
+   "vendor": "Zimperium zShield",
+   "so": [
+    ".szip",
+    "0.odex"
+   ],
+   "classes": []
+  },
+  {
+   "vendor": "Kony Mobile JSVM",
+   "so": [
+    "libkonyjsvm.so",
+    "application.properties",
+    "js/startup.js"
+   ],
+   "classes": []
+  },
+  {
+   "vendor": "Approov (CriticalBlue)",
+   "so": [
+    "libapproov.so",
+    "cbconfig.json"
+   ],
+   "classes": []
+  },
+  {
+   "vendor": "LIAPP (Lockin)",
+   "so": [
+    "liapp.ini",
+    "liappclient.sc",
+    "liappegg",
+    "pkginfo.txt"
+   ],
+   "classes": [
+    "com/lockincomp"
+   ]
+  },
+  {
+   "vendor": "Google Play PairIP (App Signing)",
+   "so": [
+    "libpairipcore.so"
+   ],
+   "classes": [
+    "com/pairip/StartupLauncher",
+    "com/pairip/VMRunner",
+    "com/pairip/VmDecryptor",
+    "com/pairip/SignatureCheck",
+    "com/pairip/InitContextProvider",
+    "com/pairip/application/Application",
+    "com/pairip/licensecheck/LicenseClient"
+   ]
+  },
+  {
+   "vendor": "Ducex Shell",
+   "so": [
+    "libducex.so"
+   ],
+   "classes": []
+  },
+  {
+   "vendor": "Medusah Packer",
+   "so": [
+    "libmd.so"
+   ],
+   "classes": []
+  },
+  {
+   "vendor": "AppSolid (Medusah)",
+   "so": [
+    "high_resolution.png"
+   ],
+   "classes": []
+  },
+  {
+   "vendor": "EpicVM Shell",
+   "so": [
+    "libepic_vm.so"
+   ],
+   "classes": []
+  },
+  {
+   "vendor": "KangaPack",
+   "so": [
+    "libapksadfsalkwes.so"
+   ],
+   "classes": []
+  },
+  {
+   "vendor": "Tencent MTP (国际版/海外)",
+   "so": [
+    "libmobisecy.so",
+    "dexmethod"
+   ],
+   "classes": []
+  },
+  {
+   "vendor": "APKEncryptor (恶意壳)",
+   "so": [
+    "src/2ba5b2615b9b71b48c7694d6489e0171",
+    "src/2e15f58d32a5ff652706ef41ec85a763",
+    "src/3676d55f84497cbeadfc614c1b1b62fc"
+   ],
+   "classes": []
+  },
+  {
+   "vendor": "ChornClickers (恶意壳)",
+   "so": [
+    "lib/armeabi/libhdus.so",
+    "lib/armeabi/libwjus.so"
+   ],
+   "classes": []
+  },
+  {
+   "vendor": "ApkPacker",
+   "so": [
+    "apkpacker/apkpackerconfiguration",
+    "apkpacker/classes.dex"
+   ],
+   "classes": []
+  },
+  {
+   "vendor": "Trustonic TEE Client",
+   "so": [
+    "libteeclient.so"
+   ],
+   "classes": []
+  },
+  {
+   "vendor": "Obfuscapk (开源混淆框架)",
+   "so": [
+    "lib.armeabi-v7",
+    "lib.arm64-v8"
+   ],
+   "classes": []
+  }
+ ]
+}

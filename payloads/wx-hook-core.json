@@ -1,0 +1,1121 @@
+{
+ "features": [
+  {
+   "id": "core_cgi_prefix",
+   "description": "微信 CGI 协议前缀",
+   "anyStrings": [
+    "/cgi-bin/micromsg-bin/"
+   ],
+   "classHints": [
+    "NetScene",
+    "NetworkScene"
+   ]
+  },
+  {
+   "id": "core_cgi_newinit",
+   "description": "登录初始化 newinit",
+   "anyStrings": [
+    "/cgi-bin/micromsg-bin/newinit"
+   ],
+   "classHints": [
+    "NetSceneNewInit"
+   ]
+  },
+  {
+   "id": "core_cgi_newsync",
+   "description": "消息同步 newsync",
+   "anyStrings": [
+    "/cgi-bin/micromsg-bin/newsync"
+   ],
+   "classHints": [
+    "NetSceneSync"
+   ]
+  },
+  {
+   "id": "core_cgi_newsendmsg",
+   "description": "发送消息 newsendmsg",
+   "anyStrings": [
+    "/cgi-bin/micromsg-bin/newsendmsg"
+   ],
+   "classHints": [
+    "NetSceneSendMsg"
+   ]
+  },
+  {
+   "id": "core_cgi_getprofile",
+   "description": "获取个人信息 getprofile",
+   "anyStrings": [
+    "/cgi-bin/micromsg-bin/getprofile"
+   ],
+   "classHints": [
+    "NetSceneGetProfile"
+   ]
+  },
+  {
+   "id": "core_cgi_manualauth",
+   "description": "登录鉴权 manualauth",
+   "anyStrings": [
+    "/cgi-bin/micromsg-bin/manualauth"
+   ],
+   "classHints": [
+    "NetSceneManualAuth"
+   ]
+  },
+  {
+   "id": "core_cgi_searchcontact",
+   "description": "搜索联系人 searchcontact",
+   "anyStrings": [
+    "/cgi-bin/micromsg-bin/searchcontact"
+   ],
+   "classHints": [
+    "NetSceneSearchContact"
+   ]
+  },
+  {
+   "id": "core_cgi_getcontact",
+   "description": "拉取联系人 getcontact",
+   "anyStrings": [
+    "/cgi-bin/micromsg-bin/getcontact"
+   ],
+   "classHints": [
+    "NetSceneGetContact"
+   ]
+  },
+  {
+   "id": "core_cgi_verifyuser",
+   "description": "添加好友 verifyuser",
+   "anyStrings": [
+    "/cgi-bin/micromsg-bin/verifyuser"
+   ],
+   "classHints": [
+    "NetSceneVerifyUser"
+   ]
+  },
+  {
+   "id": "core_cgi_bindopmobile",
+   "description": "短信授权 bindopmobileforreg",
+   "anyStrings": [
+    "/cgi-bin/micromsg-bin/bindopmobileforreg"
+   ],
+   "classHints": [
+    "NetSceneBindOpMobile"
+   ]
+  },
+  {
+   "id": "core_cgi_getloginqrcode",
+   "description": "扫码登录 getloginqrcode",
+   "anyStrings": [
+    "/cgi-bin/micromsg-bin/getloginqrcode"
+   ],
+   "classHints": [
+    "NetSceneGetLoginQRCode"
+   ]
+  },
+  {
+   "id": "core_cgi_getchatroominfo",
+   "description": "群信息 getchatroominfo",
+   "anyStrings": [
+    "/cgi-bin/micromsg-bin/getchatroominfo"
+   ],
+   "classHints": [
+    "NetSceneGetChatRoomInfo"
+   ]
+  },
+  {
+   "id": "core_cgi_chatroommemberdetail",
+   "description": "群成员详情 getchatroommemberdetail",
+   "anyStrings": [
+    "/cgi-bin/micromsg-bin/getchatroommemberdetail"
+   ],
+   "classHints": [
+    "NetSceneGetChatRoomMemberDetail"
+   ]
+  },
+  {
+   "id": "core_cgi_oplog",
+   "description": "操作日志上报 oplog",
+   "anyStrings": [
+    "/cgi-bin/micromsg-bin/oplog"
+   ],
+   "classHints": [
+    "NetSceneOplog"
+   ]
+  },
+  {
+   "id": "core_cgi_getcdndns",
+   "description": "CDN 调度 getcdndns",
+   "anyStrings": [
+    "/cgi-bin/micromsg-bin/getcdndns"
+   ],
+   "classHints": [
+    "NetSceneGetCDNDns"
+   ]
+  },
+  {
+   "id": "core_cgi_downloadpackage",
+   "description": "资源包下载 downloadpackage",
+   "anyStrings": [
+    "/cgi-bin/micromsg-bin/downloadpackage"
+   ],
+   "classHints": [
+    "NetSceneDownloadPackage"
+   ]
+  },
+  {
+   "id": "core_cgi_whatsnews",
+   "description": "版本资讯 whatsnews",
+   "anyStrings": [
+    "/cgi-bin/micromsg-bin/whatsnews"
+   ],
+   "classHints": [
+    "NetSceneWhatsNew"
+   ]
+  },
+  {
+   "id": "core_cgi_getforcepush",
+   "description": "强制推送 getforcepush",
+   "anyStrings": [
+    "/cgi-bin/micromsg-bin/getforcepush"
+   ],
+   "classHints": [
+    "NetSceneGetForcePush"
+   ]
+  },
+  {
+   "id": "core_cgi_textstatus",
+   "description": "文字状态配置 textstatusgeticonconfig",
+   "anyStrings": [
+    "/cgi-bin/micromsg-bin/textstatusgeticonconfig"
+   ]
+  },
+  {
+   "id": "core_cgi_mmtls",
+   "description": "mmtls 加密通道",
+   "anyStrings": [
+    "mmtls"
+   ],
+   "classHints": [
+    "MMTLS"
+   ]
+  },
+  {
+   "id": "core_host_short",
+   "description": "短连接域名 short.weixin.qq.com",
+   "anyStrings": [
+    "short.weixin.qq.com"
+   ]
+  },
+  {
+   "id": "core_host_long",
+   "description": "长连接域名 long.weixin.qq.com",
+   "anyStrings": [
+    "long.weixin.qq.com"
+   ]
+  },
+  {
+   "id": "core_host_weixin",
+   "description": "主域名 weixin.qq.com",
+   "anyStrings": [
+    "weixin.qq.com"
+   ]
+  },
+  {
+   "id": "core_log_mmcore",
+   "description": "日志标签 MicroMsg.MMCore",
+   "anyStrings": [
+    "MicroMsg.MMCore"
+   ],
+   "classHints": [
+    "MMCore"
+   ]
+  },
+  {
+   "id": "core_log_netqueue",
+   "description": "日志标签 MicroMsg.NetSceneQueue",
+   "anyStrings": [
+    "MicroMsg.NetSceneQueue"
+   ],
+   "classHints": [
+    "NetSceneQueue"
+   ]
+  },
+  {
+   "id": "core_log_scene",
+   "description": "日志标签 MicroMsg.Scene",
+   "anyStrings": [
+    "MicroMsg.Scene"
+   ],
+   "classHints": [
+    "Scene"
+   ]
+  },
+  {
+   "id": "core_log_account",
+   "description": "日志标签 MicroMsg.AccountStorage",
+   "anyStrings": [
+    "MicroMsg.AccountStorage"
+   ],
+   "classHints": [
+    "AccountStorage"
+   ]
+  },
+  {
+   "id": "core_log_config",
+   "description": "日志标签 MicroMsg.ConfigStorage",
+   "anyStrings": [
+    "MicroMsg.ConfigStorage"
+   ],
+   "classHints": [
+    "ConfigStorage"
+   ]
+  },
+  {
+   "id": "core_log_msginfo",
+   "description": "日志标签 MicroMsg.MsgInfo",
+   "anyStrings": [
+    "MicroMsg.MsgInfo"
+   ],
+   "classHints": [
+    "MsgInfo"
+   ]
+  },
+  {
+   "id": "core_log_chatting",
+   "description": "日志标签 MicroMsg.ChattingUI",
+   "anyStrings": [
+    "MicroMsg.ChattingUI"
+   ],
+   "classHints": [
+    "ChattingUI"
+   ]
+  },
+  {
+   "id": "core_log_launcher",
+   "description": "日志标签 MicroMsg.LauncherUI",
+   "anyStrings": [
+    "MicroMsg.LauncherUI"
+   ],
+   "classHints": [
+    "LauncherUI"
+   ]
+  },
+  {
+   "id": "core_reg_logtag",
+   "description": "日志标签前缀 MicroMsg.",
+   "anyStrings": [
+    "MicroMsg."
+   ]
+  },
+  {
+   "id": "core_proc_main",
+   "description": "主进程 com.tencent.mm",
+   "anyStrings": [
+    "com.tencent.mm"
+   ]
+  },
+  {
+   "id": "core_proc_mm_prefix",
+   "description": "进程名前缀 com.tencent.mm:",
+   "anyStrings": [
+    "com.tencent.mm:"
+   ]
+  },
+  {
+   "id": "core_proc_push",
+   "description": "push 进程",
+   "anyStrings": [
+    ":push",
+    ":pushservice"
+   ]
+  },
+  {
+   "id": "core_proc_tools",
+   "description": "tools 进程",
+   "anyStrings": [
+    ":tools",
+    ":toolsmp"
+   ]
+  },
+  {
+   "id": "core_proc_appbrand",
+   "description": "小程序 appbrand 进程",
+   "anyStrings": [
+    ":appbrand",
+    ":appbrand0",
+    ":appbrand1",
+    ":appbrand2",
+    ":appbrand3",
+    ":appbrand4"
+   ],
+   "classHints": [
+    "AppBrand"
+   ]
+  },
+  {
+   "id": "core_proc_sandbox",
+   "description": "sandbox 进程",
+   "anyStrings": [
+    ":sandbox"
+   ]
+  },
+  {
+   "id": "core_proc_support",
+   "description": "support 进程",
+   "anyStrings": [
+    ":support"
+   ]
+  },
+  {
+   "id": "core_proc_exdevice",
+   "description": "exdevice 进程",
+   "anyStrings": [
+    ":exdevice"
+   ],
+   "classHints": [
+    "Exdevice"
+   ]
+  },
+  {
+   "id": "core_proc_shake",
+   "description": "shake 进程",
+   "anyStrings": [
+    ":shake"
+   ],
+   "classHints": [
+    "Shake"
+   ]
+  },
+  {
+   "id": "core_proc_patch",
+   "description": "patch 进程",
+   "anyStrings": [
+    ":patch"
+   ]
+  },
+  {
+   "id": "core_proc_hotpot",
+   "description": "hotpot 进程",
+   "anyStrings": [
+    ":hotpot"
+   ]
+  },
+  {
+   "id": "core_id_wxid",
+   "description": "账号前缀 wxid_",
+   "anyStrings": [
+    "wxid_"
+   ]
+  },
+  {
+   "id": "core_id_chatroom",
+   "description": "群 ID 后缀 @chatroom",
+   "anyStrings": [
+    "@chatroom"
+   ],
+   "classHints": [
+    "Chatroom"
+   ]
+  },
+  {
+   "id": "core_id_openim",
+   "description": "企业/开放 IM 后缀 @openim",
+   "anyStrings": [
+    "@openim"
+   ]
+  },
+  {
+   "id": "core_id_gh",
+   "description": "公众号前缀 gh_",
+   "anyStrings": [
+    "gh_"
+   ]
+  },
+  {
+   "id": "core_id_biz",
+   "description": "企业号前缀 biz_",
+   "anyStrings": [
+    "biz_"
+   ]
+  },
+  {
+   "id": "core_id_filehelper",
+   "description": "文件传输助手 filehelper",
+   "anyStrings": [
+    "filehelper"
+   ]
+  },
+  {
+   "id": "core_id_notifymessage",
+   "description": "系统通知 notifymessage",
+   "anyStrings": [
+    "notifymessage"
+   ]
+  },
+  {
+   "id": "core_id_floatbottle",
+   "description": "漂流瓶 floatbottle",
+   "anyStrings": [
+    "floatbottle"
+   ]
+  },
+  {
+   "id": "core_id_medianote",
+   "description": "系统媒体 medianote",
+   "anyStrings": [
+    "medianote"
+   ]
+  },
+  {
+   "id": "core_id_fmessage",
+   "description": "好友推荐 fmessage",
+   "anyStrings": [
+    "fmessage"
+   ]
+  },
+  {
+   "id": "core_id_newsapp",
+   "description": "腾讯新闻 newsapp",
+   "anyStrings": [
+    "newsapp"
+   ]
+  },
+  {
+   "id": "core_id_qqmail",
+   "description": "QQ 邮箱 qqmail",
+   "anyStrings": [
+    "qqmail"
+   ]
+  },
+  {
+   "id": "core_id_weixin",
+   "description": "微信团队 weixin",
+   "anyStrings": [
+    "weixin"
+   ]
+  },
+  {
+   "id": "core_id_officialaccounts",
+   "description": "公众号会话 officialaccounts",
+   "anyStrings": [
+    "officialaccounts"
+   ]
+  },
+  {
+   "id": "core_id_notification_messages",
+   "description": "通知消息 notification_messages",
+   "anyStrings": [
+    "notification_messages"
+   ]
+  },
+  {
+   "id": "core_id_shakeapp",
+   "description": "摇一摇消息 shakeapp",
+   "anyStrings": [
+    "shakeapp"
+   ]
+  },
+  {
+   "id": "core_id_lbsapp",
+   "description": "位置消息 lbsapp",
+   "anyStrings": [
+    "lbsapp"
+   ]
+  },
+  {
+   "id": "core_id_feedsapp",
+   "description": "订阅号 feedsapp",
+   "anyStrings": [
+    "feedsapp"
+   ]
+  },
+  {
+   "id": "core_id_blogapp",
+   "description": "博客消息 blogapp",
+   "anyStrings": [
+    "blogapp"
+   ]
+  },
+  {
+   "id": "core_id_readerapp",
+   "description": "阅读消息 readerapp",
+   "anyStrings": [
+    "readerapp"
+   ]
+  },
+  {
+   "id": "core_id_weixinreminder",
+   "description": "提醒 weixinreminder",
+   "anyStrings": [
+    "weixinreminder"
+   ]
+  },
+  {
+   "id": "core_id_userexperience",
+   "description": "体验反馈 userexperience_alarm",
+   "anyStrings": [
+    "userexperience_alarm"
+   ]
+  },
+  {
+   "id": "core_id_qqsync",
+   "description": "QQ 同步 qqsync",
+   "anyStrings": [
+    "qqsync"
+   ]
+  },
+  {
+   "id": "core_id_tmessage",
+   "description": "tmessage",
+   "anyStrings": [
+    "tmessage"
+   ]
+  },
+  {
+   "id": "core_id_qmessage",
+   "description": "qmessage",
+   "anyStrings": [
+    "qmessage"
+   ]
+  },
+  {
+   "id": "core_id_brandsessionholder",
+   "description": "brandsessionholder",
+   "anyStrings": [
+    "brandsessionholder"
+   ]
+  },
+  {
+   "id": "core_id_wxitil",
+   "description": "wxitil",
+   "anyStrings": [
+    "wxitil"
+   ]
+  },
+  {
+   "id": "core_id_masssendapp",
+   "description": "群发助手 masssendapp",
+   "anyStrings": [
+    "masssendapp"
+   ]
+  },
+  {
+   "id": "core_id_meishiapp",
+   "description": "美市 meishiapp",
+   "anyStrings": [
+    "meishiapp"
+   ]
+  },
+  {
+   "id": "core_id_qqfriend",
+   "description": "QQ 好友 qqfriend",
+   "anyStrings": [
+    "qqfriend"
+   ]
+  },
+  {
+   "id": "core_id_topstoryapp",
+   "description": "topstoryapp",
+   "anyStrings": [
+    "topstoryapp"
+   ]
+  },
+  {
+   "id": "core_db_enmicromsg",
+   "description": "数据库文件 EnMicroMsg.db",
+   "anyStrings": [
+    "EnMicroMsg.db"
+   ],
+   "classHints": [
+    "EnMicroMsg",
+    "SQLite"
+   ]
+  },
+  {
+   "id": "core_db_message",
+   "description": "消息表 message 结构",
+   "anyStrings": [
+    "msgSvrId",
+    "lvbuffer",
+    "reserved"
+   ],
+   "classHints": [
+    "MsgInfo",
+    "EnMicroMsg"
+   ]
+  },
+  {
+   "id": "core_db_message_cols",
+   "description": "消息表列名",
+   "allStrings": [
+    "talker",
+    "createTime"
+   ],
+   "anyStrings": [
+    "talker",
+    "createTime"
+   ],
+   "classHints": [
+    "MsgInfo"
+   ]
+  },
+  {
+   "id": "core_db_rcontact",
+   "description": "通讯录表 rcontact",
+   "anyStrings": [
+    "rcontact"
+   ],
+   "classHints": [
+    "RContact",
+    "Contact"
+   ]
+  },
+  {
+   "id": "core_db_rconversation",
+   "description": "会话表 rconversation",
+   "anyStrings": [
+    "rconversation"
+   ],
+   "classHints": [
+    "Conversation"
+   ]
+  },
+  {
+   "id": "core_db_chatroom",
+   "description": "群表 chatroom 结构",
+   "anyStrings": [
+    "chatroomname",
+    "memberlist"
+   ],
+   "classHints": [
+    "Chatroom"
+   ]
+  },
+  {
+   "id": "core_db_imginfo",
+   "description": "图片表 ImgInfo2",
+   "anyStrings": [
+    "ImgInfo2"
+   ],
+   "classHints": [
+    "ImgInfo"
+   ]
+  },
+  {
+   "id": "core_db_videoinfo",
+   "description": "视频表 videoinfo2",
+   "anyStrings": [
+    "videoinfo2"
+   ],
+   "classHints": [
+    "VideoInfo"
+   ]
+  },
+  {
+   "id": "core_db_voiceinfo",
+   "description": "语音表 voiceinfo",
+   "anyStrings": [
+    "voiceinfo"
+   ],
+   "classHints": [
+    "VoiceInfo"
+   ]
+  },
+  {
+   "id": "core_db_imgflag",
+   "description": "图片标记表 img_flag",
+   "anyStrings": [
+    "img_flag"
+   ]
+  },
+  {
+   "id": "core_db_userinfo",
+   "description": "用户信息表 userinfo",
+   "anyStrings": [
+    "userinfo"
+   ],
+   "classHints": [
+    "UserInfo"
+   ]
+  },
+  {
+   "id": "core_db_emoticon",
+   "description": "表情表 emoticon",
+   "anyStrings": [
+    "emoticon"
+   ],
+   "classHints": [
+    "Emoji"
+   ]
+  },
+  {
+   "id": "core_db_bizinfo",
+   "description": "公众号信息表 bizinfo",
+   "anyStrings": [
+    "bizinfo"
+   ],
+   "classHints": [
+    "BizInfo"
+   ]
+  },
+  {
+   "id": "core_db_sharecard",
+   "description": "名片表 ShareCardInfo",
+   "anyStrings": [
+    "ShareCardInfo"
+   ],
+   "classHints": [
+    "ShareCard"
+   ]
+  },
+  {
+   "id": "core_db_oplog",
+   "description": "oplog 表",
+   "anyStrings": [
+    "oplog"
+   ]
+  },
+  {
+   "id": "core_db_fts",
+   "description": "FTS 全文索引",
+   "anyStrings": [
+    "FTS5"
+   ]
+  },
+  {
+   "id": "core_path_tenant",
+   "description": "存储路径 /tencent/MicroMsg/",
+   "anyStrings": [
+    "/tencent/MicroMsg/"
+   ]
+  },
+  {
+   "id": "core_path_data",
+   "description": "数据目录 /data/data/com.tencent.mm",
+   "anyStrings": [
+    "/data/data/com.tencent.mm"
+   ]
+  },
+  {
+   "id": "core_cfg_compat",
+   "description": "配置 CompatibilityInfo.cfg",
+   "anyStrings": [
+    "CompatibilityInfo.cfg"
+   ]
+  },
+  {
+   "id": "core_cfg_prefs",
+   "description": "配置 system_config_prefs",
+   "anyStrings": [
+    "system_config_prefs"
+   ]
+  },
+  {
+   "id": "core_scheme_weixin",
+   "description": "scheme weixin://",
+   "anyStrings": [
+    "weixin://"
+   ]
+  },
+  {
+   "id": "core_scheme_dl",
+   "description": "scheme weixin://dl/",
+   "anyStrings": [
+    "weixin://dl/"
+   ]
+  },
+  {
+   "id": "core_scheme_scanqrcode",
+   "description": "scheme 扫一扫",
+   "anyStrings": [
+    "weixin://dl/scanqrcode"
+   ],
+   "classHints": [
+    "ScanCode"
+   ]
+  },
+  {
+   "id": "core_scheme_official",
+   "description": "scheme 公众号",
+   "anyStrings": [
+    "weixin://dl/officialaccounts"
+   ]
+  },
+  {
+   "id": "core_scheme_business",
+   "description": "scheme 业务域名",
+   "anyStrings": [
+    "weixin://dl/business"
+   ]
+  },
+  {
+   "id": "core_scheme_moments",
+   "description": "scheme 朋友圈",
+   "anyStrings": [
+    "weixin://dl/moments"
+   ],
+   "classHints": [
+    "Sns"
+   ]
+  },
+  {
+   "id": "core_scheme_wechat",
+   "description": "scheme wechat://",
+   "anyStrings": [
+    "wechat://"
+   ]
+  },
+  {
+   "id": "core_scheme_wecube",
+   "description": "scheme wecube://",
+   "anyStrings": [
+    "wecube://"
+   ]
+  },
+  {
+   "id": "core_xml_envelope",
+   "description": "消息 XML 信封字段",
+   "allStrings": [
+    "fromusername",
+    "tousername"
+   ],
+   "anyStrings": [
+    "fromusername",
+    "tousername"
+   ],
+   "classHints": [
+    "MsgInfo"
+   ]
+  },
+  {
+   "id": "core_xml_msgsource",
+   "description": "消息 XML msgsource",
+   "anyStrings": [
+    "msgsource"
+   ]
+  },
+  {
+   "id": "core_xml_newmsgid",
+   "description": "消息 XML newmsgid",
+   "anyStrings": [
+    "newmsgid"
+   ]
+  },
+  {
+   "id": "core_xml_appmsg",
+   "description": "消息 XML appmsg",
+   "anyStrings": [
+    "appmsg"
+   ],
+   "classHints": [
+    "AppMsg"
+   ]
+  },
+  {
+   "id": "core_xml_sysmsg",
+   "description": "消息 XML sysmsg",
+   "anyStrings": [
+    "sysmsg"
+   ]
+  },
+  {
+   "id": "core_xml_pushcontent",
+   "description": "消息 XML pushcontent",
+   "anyStrings": [
+    "pushcontent"
+   ]
+  },
+  {
+   "id": "core_xml_emoji",
+   "description": "消息 XML emoji",
+   "anyStrings": [
+    "emoji"
+   ],
+   "classHints": [
+    "Emoji"
+   ]
+  },
+  {
+   "id": "core_class_protocal",
+   "description": "核心包 com.tencent.mm.protocal",
+   "anyStrings": [
+    "com.tencent.mm.protocal"
+   ],
+   "classHints": [
+    "protocal"
+   ]
+  },
+  {
+   "id": "core_class_platformtools",
+   "description": "核心包 mm.sdk.platformtools",
+   "anyStrings": [
+    "com.tencent.mm.sdk.platformtools"
+   ],
+   "classHints": [
+    "platformtools"
+   ]
+  },
+  {
+   "id": "core_class_ui_launcher",
+   "description": "启动类 com.tencent.mm.ui.LauncherUI",
+   "anyStrings": [
+    "com.tencent.mm.ui.LauncherUI"
+   ],
+   "classHints": [
+    "LauncherUI"
+   ]
+  },
+  {
+   "id": "core_class_ui_chatting",
+   "description": "聊天包 com.tencent.mm.ui.chatting",
+   "anyStrings": [
+    "com.tencent.mm.ui.chatting"
+   ],
+   "classHints": [
+    "ChattingUI"
+   ]
+  },
+  {
+   "id": "core_class_ui_conversation",
+   "description": "会话包 com.tencent.mm.ui.conversation",
+   "anyStrings": [
+    "com.tencent.mm.ui.conversation"
+   ],
+   "classHints": [
+    "Conversation"
+   ]
+  },
+  {
+   "id": "core_class_ui_mmwebview",
+   "description": "WebView 组件 MMWebView",
+   "anyStrings": [
+    "com.tencent.mm.ui.widget.MMWebView"
+   ],
+   "classHints": [
+    "MMWebView"
+   ]
+  },
+  {
+   "id": "core_class_app_mmapplication",
+   "description": "应用类 com.tencent.mm.app.MMApplication",
+   "anyStrings": [
+    "com.tencent.mm.app.MMApplication"
+   ],
+   "classHints": [
+    "MMApplication"
+   ]
+  },
+  {
+   "id": "core_class_plugin_messenger",
+   "description": "插件包 plugin.messenger",
+   "anyStrings": [
+    "com.tencent.mm.plugin.messenger"
+   ],
+   "classHints": [
+    "messenger"
+   ]
+  },
+  {
+   "id": "core_class_plugin_setting",
+   "description": "插件包 plugin.setting",
+   "anyStrings": [
+    "com.tencent.mm.plugin.setting"
+   ],
+   "classHints": [
+    "setting"
+   ]
+  },
+  {
+   "id": "core_class_model_mmcore",
+   "description": "核心模型 MMCore",
+   "anyStrings": [
+    "com.tencent.mm.model.MMCore"
+   ],
+   "classHints": [
+    "MMCore"
+   ]
+  },
+  {
+   "id": "core_storage_sqlite",
+   "description": "本地存储 SQLite 特征",
+   "anyStrings": [
+    "sqlite_sequence",
+    "CREATE TABLE"
+   ],
+   "classHints": [
+    "SQLite"
+   ]
+  },
+  {
+   "id": "core_msg_type_const",
+   "description": "消息类型常量表",
+   "anyStrings": [
+    "msgType",
+    "MsgType"
+   ],
+   "classHints": [
+    "MsgInfo"
+   ]
+  },
+  {
+   "id": "core_status_notify",
+   "description": "StatusNotify 同步机制",
+   "anyStrings": [
+    "StatusNotify",
+    "StatusNotifyCode"
+   ],
+   "classHints": [
+    "StatusNotify"
+   ]
+  },
+  {
+   "id": "core_sync_key",
+   "description": "同步 Key",
+   "anyStrings": [
+    "SyncKey",
+    "syncKey"
+   ],
+   "classHints": [
+    "SyncKey"
+   ]
+  },
+  {
+   "id": "core_longlink",
+   "description": "长连接状态",
+   "anyStrings": [
+    "longlink",
+    "LongLink",
+    "PushNotify"
+   ],
+   "classHints": [
+    "LongLink"
+   ]
+  },
+  {
+   "id": "core_aes_key",
+   "description": "消息加密 AESKey",
+   "anyStrings": [
+    "aeskey",
+    "AESKey"
+   ]
+  },
+  {
+   "id": "core_srv_time",
+   "description": "服务器时间 offset",
+   "anyStrings": [
+    "srvTime",
+    "ServerTime",
+    "timeOffset"
+   ]
+  },
+  {
+   "id": "core_init_seq",
+   "description": "初始化 SID/UIN",
+   "anyStrings": [
+    "DeviceID",
+    "deviceid",
+    "Uin",
+    "Sid"
+   ]
+  }
+ ]
+}

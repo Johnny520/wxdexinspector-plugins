@@ -1,0 +1,829 @@
+{
+ "features": [
+  {
+   "id": "feat_mini_program",
+   "description": "小程序 AppBrand",
+   "anyStrings": [
+    "appbrand",
+    "MicroMsg.AppBrand",
+    "appbrandservice",
+    "appbrandcomm"
+   ],
+   "classHints": [
+    "AppBrand"
+   ]
+  },
+  {
+   "id": "feat_appbrand_pkg",
+   "description": "小程序包 wxapkg",
+   "anyStrings": [
+    "wxapkg"
+   ],
+   "classHints": [
+    "AppBrand"
+   ]
+  },
+  {
+   "id": "feat_appbrand_service",
+   "description": "小程序逻辑层服务",
+   "anyStrings": [
+    "WAService",
+    "AppService",
+    "appservice"
+   ],
+   "classHints": [
+    "AppBrandService"
+   ]
+  },
+  {
+   "id": "feat_appbrand_bridge",
+   "description": "小程序 JS Bridge",
+   "anyStrings": [
+    "WeixinJSBridge"
+   ],
+   "classHints": [
+    "JSBridge"
+   ]
+  },
+  {
+   "id": "feat_appbrand_ad",
+   "description": "小程序激励视频广告",
+   "anyStrings": [
+    "WeappRewardedVideoAd",
+    "RewardedVideoAd"
+   ],
+   "classHints": [
+    "AppBrandAd"
+   ]
+  },
+  {
+   "id": "feat_appbrand_game",
+   "description": "小游戏",
+   "anyStrings": [
+    "WAGame",
+    "WeAppGame"
+   ],
+   "classHints": [
+    "WAGame"
+   ]
+  },
+  {
+   "id": "feat_appbrand_plugin",
+   "description": "小程序插件包 plugin.appbrand",
+   "anyStrings": [
+    "com.tencent.mm.plugin.appbrand"
+   ],
+   "classHints": [
+    "appbrand"
+   ]
+  },
+  {
+   "id": "feat_pay_wallet",
+   "description": "支付/钱包 Wallet",
+   "anyStrings": [
+    "MicroMsg.Wallet",
+    "Tenpay",
+    "MallWallet"
+   ],
+   "classHints": [
+    "Wallet",
+    "Tenpay"
+   ]
+  },
+  {
+   "id": "feat_pay_cgi",
+   "description": "支付 CGI 通道",
+   "anyStrings": [
+    "/cgi-bin/mmpay-bin/",
+    "mmpay-bin/tenpay"
+   ],
+   "classHints": [
+    "Tenpay"
+   ]
+  },
+  {
+   "id": "feat_pay_wxpay_scheme",
+   "description": "支付 scheme wxpay://",
+   "anyStrings": [
+    "wxpay://"
+   ],
+   "classHints": [
+    "WCPay"
+   ]
+  },
+  {
+   "id": "feat_pay_ui",
+   "description": "收银台 UI",
+   "anyStrings": [
+    "WalletPayUI",
+    "MallWalletUI",
+    "H5PayUI"
+   ],
+   "classHints": [
+    "Wallet",
+    "PayUI"
+   ]
+  },
+  {
+   "id": "feat_pay_redpacket",
+   "description": "红包 LuckyMoney",
+   "anyStrings": [
+    "LuckyMoney",
+    "WalletLuckyMoney",
+    "RedEnvelope"
+   ],
+   "classHints": [
+    "LuckyMoney"
+   ]
+  },
+  {
+   "id": "feat_pay_transfer",
+   "description": "转账 Transfer",
+   "anyStrings": [
+    "Remittance",
+    "MONEY_TRANSFER",
+    "TransferMoney"
+   ],
+   "classHints": [
+    "Remittance"
+   ]
+  },
+  {
+   "id": "feat_pay_entry",
+   "description": "支付入口 WXPayEntryActivity",
+   "anyStrings": [
+    "WXPayEntryActivity"
+   ],
+   "classHints": [
+    "WXPayEntry"
+   ]
+  },
+  {
+   "id": "feat_pay_plugin",
+   "description": "支付插件包 plugin.mall",
+   "anyStrings": [
+    "com.tencent.mm.plugin.mall"
+   ],
+   "classHints": [
+    "mall"
+   ]
+  },
+  {
+   "id": "feat_finder",
+   "description": "视频号 Finder",
+   "anyStrings": [
+    "MicroMsg.Finder",
+    "FinderFeed",
+    "finderLive"
+   ],
+   "classHints": [
+    "Finder"
+   ]
+  },
+  {
+   "id": "feat_finder_cgi",
+   "description": "视频号 CGI",
+   "anyStrings": [
+    "/cgi-bin/micromsg-bin/finderinit",
+    "/cgi-bin/micromsg-bin/findersync"
+   ],
+   "classHints": [
+    "NetSceneFinder"
+   ]
+  },
+  {
+   "id": "feat_finder_live",
+   "description": "视频号直播",
+   "anyStrings": [
+    "FinderLive",
+    "LiveReplay",
+    "live_replay"
+   ],
+   "classHints": [
+    "FinderLive"
+   ]
+  },
+  {
+   "id": "feat_finder_plugin",
+   "description": "视频号插件包 plugin.finder",
+   "anyStrings": [
+    "com.tencent.mm.plugin.finder"
+   ],
+   "classHints": [
+    "finder"
+   ]
+  },
+  {
+   "id": "feat_live",
+   "description": "直播能力",
+   "anyStrings": [
+    "MicroMsg.Live",
+    "LivePusher",
+    "LivePlayer"
+   ],
+   "classHints": [
+    "Live"
+   ]
+  },
+  {
+   "id": "feat_sns",
+   "description": "朋友圈 Sns",
+   "anyStrings": [
+    "SnsInfo",
+    "SnsObject",
+    "MicroMsg.Sns"
+   ],
+   "classHints": [
+    "Sns"
+   ]
+  },
+  {
+   "id": "feat_sns_timeline",
+   "description": "朋友圈时间线对象",
+   "anyStrings": [
+    "TimelineObject",
+    "snsExt",
+    "SnsUpload"
+   ],
+   "classHints": [
+    "TimelineObject"
+   ]
+  },
+  {
+   "id": "feat_sns_ui",
+   "description": "朋友圈 UI/互动",
+   "anyStrings": [
+    "MicroMsg.SnsComment",
+    "SnsLike",
+    "SnsUserPage"
+   ],
+   "classHints": [
+    "SnsComment"
+   ]
+  },
+  {
+   "id": "feat_sns_plugin",
+   "description": "朋友圈插件包 plugin.sns",
+   "anyStrings": [
+    "com.tencent.mm.plugin.sns"
+   ],
+   "classHints": [
+    "sns"
+   ]
+  },
+  {
+   "id": "feat_sns_video",
+   "description": "朋友圈视频",
+   "anyStrings": [
+    "SnsVideoInfo",
+    "SnsUpload"
+   ],
+   "classHints": [
+    "SnsUpload"
+   ]
+  },
+  {
+   "id": "feat_scancode",
+   "description": "扫一扫 ScanCode",
+   "anyStrings": [
+    "scancode",
+    "MicroMsg.ScanCode",
+    "scancodereport"
+   ],
+   "classHints": [
+    "ScanCode"
+   ]
+  },
+  {
+   "id": "feat_scancode_ui",
+   "description": "扫一扫界面 ScanCodeUI",
+   "anyStrings": [
+    "ScanCodeUI",
+    "scanresult"
+   ],
+   "classHints": [
+    "ScanCodeUI"
+   ]
+  },
+  {
+   "id": "feat_story_scan",
+   "description": "长按识别/相册识码",
+   "anyStrings": [
+    "decodeQRCode",
+    "decodeImage"
+   ],
+   "classHints": [
+    "ScanCode"
+   ]
+  },
+  {
+   "id": "feat_favorites",
+   "description": "收藏 Favorites",
+   "anyStrings": [
+    "FavoritesItem",
+    "favitem",
+    "MicroMsg.Favorites"
+   ],
+   "classHints": [
+    "Favorites"
+   ]
+  },
+  {
+   "id": "feat_favorites_ui",
+   "description": "收藏页面 FavSearchUI",
+   "anyStrings": [
+    "FavSearchUI",
+    "favorite_"
+   ],
+   "classHints": [
+    "Favorite"
+   ]
+  },
+  {
+   "id": "feat_card_package",
+   "description": "卡包 CardPackage",
+   "anyStrings": [
+    "CardPackage",
+    "cardpackage",
+    "MicroMsg.CardPackage"
+   ],
+   "classHints": [
+    "CardPackage"
+   ]
+  },
+  {
+   "id": "feat_card_item",
+   "description": "卡券 CardItem",
+   "anyStrings": [
+    "CardItem",
+    "MsgCard",
+    "card_id"
+   ],
+   "classHints": [
+    "CardItem"
+   ]
+  },
+  {
+   "id": "feat_game_center",
+   "description": "游戏中心",
+   "anyStrings": [
+    "MicroMsg.Game",
+    "gamecenter",
+    "GameCenter"
+   ],
+   "classHints": [
+    "Game"
+   ]
+  },
+  {
+   "id": "feat_game_plugin",
+   "description": "游戏插件包",
+   "anyStrings": [
+    "wxgame",
+    "GAME_",
+    "com.tencent.mm.game"
+   ],
+   "classHints": [
+    "Game"
+   ]
+  },
+  {
+   "id": "feat_official_account",
+   "description": "公众号 Biz",
+   "anyStrings": [
+    "MicroMsg.Biz",
+    "BizInfo"
+   ],
+   "classHints": [
+    "Biz"
+   ]
+  },
+  {
+   "id": "feat_official_webview",
+   "description": "公众号文章 WebView",
+   "anyStrings": [
+    "MicroMsg.WebviewUI",
+    "brandsessionholder"
+   ],
+   "classHints": [
+    "WebviewUI"
+   ]
+  },
+  {
+   "id": "feat_official_plugin",
+   "description": "公众号插件包 plugin.brandservice",
+   "anyStrings": [
+    "com.tencent.mm.plugin.brandservice"
+   ],
+   "classHints": [
+    "brandservice"
+   ]
+  },
+  {
+   "id": "feat_official_appmsg",
+   "description": "图文消息 AppMsg",
+   "anyStrings": [
+    "appmsg_type",
+    "appattach",
+    "cdnattachurl"
+   ],
+   "classHints": [
+    "AppMsg"
+   ]
+  },
+  {
+   "id": "feat_login_auth",
+   "description": "登录/授权",
+   "anyStrings": [
+    "MicroMsg.Login",
+    "authInfo",
+    "LoginUI"
+   ],
+   "classHints": [
+    "Login"
+   ]
+  },
+  {
+   "id": "feat_login_device",
+   "description": "多设备登录",
+   "anyStrings": [
+    "winlogin",
+    "WindowsLogin",
+    "iPadLogin",
+    "loginDevice"
+   ],
+   "classHints": [
+    "LoginDevice"
+   ]
+  },
+  {
+   "id": "feat_login_webwx",
+   "description": "网页微信登录",
+   "anyStrings": [
+    "MicroMsg.WebWX",
+    "webwx"
+   ],
+   "classHints": [
+    "WebWX"
+   ]
+  },
+  {
+   "id": "feat_pc_login",
+   "description": "PC/Mac 登录确认",
+   "anyStrings": [
+    "MutiDevice",
+    "deviceLogin",
+    "kMac_",
+    "MacLogin"
+   ],
+   "classHints": [
+    "DeviceLogin"
+   ]
+  },
+  {
+   "id": "feat_account_switch",
+   "description": "账号切换/多开",
+   "anyStrings": [
+    "MicroMsg.AccountSwitch",
+    "switchAccount",
+    "AccountSync"
+   ],
+   "classHints": [
+    "AccountSwitch"
+   ]
+  },
+  {
+   "id": "feat_backup",
+   "description": "聊天记录备份/迁移",
+   "anyStrings": [
+    "MicroMsg.Backup",
+    "BackupMoveService",
+    "MoveData"
+   ],
+   "classHints": [
+    "Backup"
+   ]
+  },
+  {
+   "id": "feat_backup_ctrl",
+   "description": "备份控制协议",
+   "anyStrings": [
+    "backupMove",
+    "BackupCtrl",
+    "recover"
+   ],
+   "classHints": [
+    "BackupMove"
+   ]
+  },
+  {
+   "id": "feat_x5",
+   "description": "X5/TBS 内核",
+   "anyStrings": [
+    "com.tencent.smtt",
+    "com.tencent.tbs",
+    "TbsReaderView"
+   ],
+   "classHints": [
+    "TBS",
+    "X5"
+   ]
+  },
+  {
+   "id": "feat_x5_webview",
+   "description": "X5 WebView 组件",
+   "anyStrings": [
+    "x5core",
+    "X5WebView",
+    "tbs_local_"
+   ],
+   "classHints": [
+    "X5WebView"
+   ]
+  },
+  {
+   "id": "feat_resupdate",
+   "description": "资源更新 checkresupdate",
+   "anyStrings": [
+    "checkresupdate",
+    "/cgi-bin/micromsg-bin/checkresupdate"
+   ],
+   "classHints": [
+    "ResUpdate"
+   ]
+  },
+  {
+   "id": "feat_subcore",
+   "description": "子核心 SubCore 机制",
+   "anyStrings": [
+    "MicroMsg.SubCore",
+    "subCoreInfo"
+   ],
+   "classHints": [
+    "SubCore"
+   ]
+  },
+  {
+   "id": "feat_emoji",
+   "description": "表情/贴纸",
+   "anyStrings": [
+    "MicroMsg.Emoji",
+    "EmojiInfo",
+    "StickerInfo",
+    "emoticon"
+   ],
+   "classHints": [
+    "Emoji",
+    "Sticker"
+   ]
+  },
+  {
+   "id": "feat_sticker_store",
+   "description": "表情商店",
+   "anyStrings": [
+    "EmotionStore",
+    "StickerStore",
+    "emotionId"
+   ],
+   "classHints": [
+    "StickerStore"
+   ]
+  },
+  {
+   "id": "feat_voice",
+   "description": "语音消息",
+   "anyStrings": [
+    "MicroMsg.VoiceMsg",
+    "voice2text",
+    "MediaVoiceItem"
+   ],
+   "classHints": [
+    "Voice"
+   ]
+  },
+  {
+   "id": "feat_voice_input",
+   "description": "语音输入",
+   "anyStrings": [
+    "voiceinput",
+    "VoiceInput"
+   ],
+   "classHints": [
+    "VoiceInput"
+   ]
+  },
+  {
+   "id": "feat_video_call",
+   "description": "音视频通话",
+   "anyStrings": [
+    "MicroMsg.VoIP",
+    "VoipEngine",
+    "voipapp"
+   ],
+   "classHints": [
+    "VoIP"
+   ]
+  },
+  {
+   "id": "feat_location",
+   "description": "位置/实时位置共享",
+   "anyStrings": [
+    "MicroMsg.Location",
+    "locationLive",
+    "LbsInfo"
+   ],
+   "classHints": [
+    "Location"
+   ]
+  },
+  {
+   "id": "feat_shake",
+   "description": "摇一摇",
+   "anyStrings": [
+    "MicroMsg.Shake",
+    "ShakeActivity"
+   ],
+   "classHints": [
+    "Shake"
+   ]
+  },
+  {
+   "id": "feat_nearby",
+   "description": "附近的人/服务",
+   "anyStrings": [
+    "MicroMsg.Nearby",
+    "NearbyFriends",
+    "nearby"
+   ],
+   "classHints": [
+    "Nearby"
+   ]
+  },
+  {
+   "id": "feat_bottle",
+   "description": "漂流瓶",
+   "anyStrings": [
+    "Bottle",
+    "bottle_msg"
+   ],
+   "classHints": [
+    "Bottle"
+   ]
+  },
+  {
+   "id": "feat_friend_recommend",
+   "description": "朋友推荐/雷达",
+   "anyStrings": [
+    "FriendRecommend",
+    "fmessage"
+   ],
+   "classHints": [
+    "FriendRecommend"
+   ]
+  },
+  {
+   "id": "feat_group_tool",
+   "description": "群工具/群公告",
+   "anyStrings": [
+    "RoomToolLogic",
+    "chatroom",
+    "@chatroom"
+   ],
+   "classHints": [
+    "Chatroom"
+   ]
+  },
+  {
+   "id": "feat_we_run",
+   "description": "微信运动",
+   "anyStrings": [
+    "MicroMsg.StepCounter",
+    "wxsport",
+    "stepcounter"
+   ],
+   "classHints": [
+    "StepCounter"
+   ]
+  },
+  {
+   "id": "feat_hardware_iot",
+   "description": "硬件/IoT 设备",
+   "anyStrings": [
+    "exdevice",
+    "MicroMsg.Exdevice"
+   ],
+   "classHints": [
+    "Exdevice"
+   ]
+  },
+  {
+   "id": "feat_wework",
+   "description": "企业微信互通",
+   "anyStrings": [
+    "wework",
+    "MicroMsg.Work"
+   ],
+   "classHints": [
+    "Work"
+   ]
+  },
+  {
+   "id": "feat_channel",
+   "description": "微信小店/视频号橱窗",
+   "anyStrings": [
+    "WeChatChannels",
+    "channelsLive"
+   ],
+   "classHints": [
+    "Channels"
+   ]
+  },
+  {
+   "id": "feat_tinker",
+   "description": "热修复/热更新",
+   "anyStrings": [
+    "TinkerPatch",
+    "tinker"
+   ],
+   "classHints": [
+    "Tinker"
+   ]
+  },
+  {
+   "id": "feat_wechat_out",
+   "description": "WeChat Out 通话",
+   "anyStrings": [
+    "WeChatOut"
+   ],
+   "classHints": [
+    "WeChatOut"
+   ]
+  },
+  {
+   "id": "feat_mall",
+   "description": "微信购物",
+   "anyStrings": [
+    "MicroMsg.MallShopping",
+    "MallShopping"
+   ],
+   "classHints": [
+    "MallShopping"
+   ]
+  },
+  {
+   "id": "feat_city_service",
+   "description": "城市服务",
+   "anyStrings": [
+    "CityService",
+    "MicroMsg.CityService"
+   ],
+   "classHints": [
+    "CityService"
+   ]
+  },
+  {
+   "id": "feat_translate",
+   "description": "消息翻译",
+   "anyStrings": [
+    "translateResult",
+    "MicroMsg.Translate"
+   ],
+   "classHints": [
+    "Translate"
+   ]
+  },
+  {
+   "id": "feat_msg_remind",
+   "description": "消息提醒/免打扰",
+   "anyStrings": [
+    "MsgRemind",
+    "notify_message"
+   ],
+   "classHints": [
+    "MsgRemind"
+   ]
+  },
+  {
+   "id": "feat_wechat_pay_code",
+   "description": "付款码/收款",
+   "anyStrings": [
+    "paymentCode",
+    "payCode"
+   ],
+   "classHints": [
+    "PayCode"
+   ]
+  },
+  {
+   "id": "feat_chatroom_invite",
+   "description": "群邀请/群二维码",
+   "anyStrings": [
+    "chatroomInvite",
+    "QRCodeInvite"
+   ],
+   "classHints": [
+    "Chatroom"
+   ]
+  }
+ ]
+}

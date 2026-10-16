@@ -1,0 +1,1080 @@
+{
+ "sdks": [
+  {
+   "name": "支付 · 微信开放SDK",
+   "prefixes": [
+    "com.tencent.mm.opensdk"
+   ]
+  },
+  {
+   "name": "支付 · 支付宝",
+   "prefixes": [
+    "com.alipay.sdk",
+    "com.alipay.android"
+   ]
+  },
+  {
+   "name": "支付 · 支付宝客户端",
+   "prefixes": [
+    "com.alipay.mobile"
+   ]
+  },
+  {
+   "name": "支付 · 银联支付",
+   "prefixes": [
+    "com.unionpay."
+   ]
+  },
+  {
+   "name": "支付 · 云闪付/银联TSM",
+   "prefixes": [
+    "com.unionpay.tsmservice"
+   ]
+  },
+  {
+   "name": "支付 · 招商银行一网通",
+   "prefixes": [
+    "cmb.pb"
+   ]
+  },
+  {
+   "name": "支付 · PayPal",
+   "prefixes": [
+    "com.paypal."
+   ]
+  },
+  {
+   "name": "支付 · Stripe",
+   "prefixes": [
+    "com.stripe.android"
+   ]
+  },
+  {
+   "name": "支付 · Braintree",
+   "prefixes": [
+    "com.braintreepayments.api"
+   ]
+  },
+  {
+   "name": "支付 · Adyen",
+   "prefixes": [
+    "com.adyen."
+   ]
+  },
+  {
+   "name": "社交 · QQ互联",
+   "prefixes": [
+    "com.tencent.connect",
+    "com.tencent.tauth"
+   ]
+  },
+  {
+   "name": "社交 · 新浪微博",
+   "prefixes": [
+    "com.sina.weibo"
+   ]
+  },
+  {
+   "name": "社交 · Facebook SDK",
+   "prefixes": [
+    "com.facebook."
+   ]
+  },
+  {
+   "name": "社交 · Twitter Kit",
+   "prefixes": [
+    "com.twitter.sdk.android"
+   ]
+  },
+  {
+   "name": "社交 · LinkedIn",
+   "prefixes": [
+    "com.linkedin.android"
+   ]
+  },
+  {
+   "name": "社交 · 企业微信SDK",
+   "prefixes": [
+    "com.tencent.wework"
+   ]
+  },
+  {
+   "name": "社交 · 脉脉SDK",
+   "prefixes": [
+    "com.taou.maimai"
+   ]
+  },
+  {
+   "name": "电商 · 京东开普勒",
+   "prefixes": [
+    "com.kepler.jd",
+    "com.jd."
+   ]
+  },
+  {
+   "name": "电商 · 淘宝",
+   "prefixes": [
+    "com.taobao."
+   ]
+  },
+  {
+   "name": "电商 · 阿里百川",
+   "prefixes": [
+    "com.alibaba.baichuan"
+   ]
+  },
+  {
+   "name": "地图定位 · 高德",
+   "prefixes": [
+    "com.amap.api"
+   ]
+  },
+  {
+   "name": "地图定位 · 百度地图",
+   "prefixes": [
+    "com.baidu.mapapi"
+   ]
+  },
+  {
+   "name": "地图定位 · 百度定位",
+   "prefixes": [
+    "com.baidu.location"
+   ]
+  },
+  {
+   "name": "地图定位 · 腾讯地图",
+   "prefixes": [
+    "com.tencent.map"
+   ]
+  },
+  {
+   "name": "地图定位 · Google Maps",
+   "prefixes": [
+    "com.google.android.gms.maps"
+   ]
+  },
+  {
+   "name": "地图定位 · Google FusedLocation",
+   "prefixes": [
+    "com.google.android.gms.location"
+   ]
+  },
+  {
+   "name": "地图定位 · 华为地图/定位",
+   "prefixes": [
+    "com.huawei.hms.maps",
+    "com.huawei.hms.location"
+   ]
+  },
+  {
+   "name": "地图定位 · Mapbox",
+   "prefixes": [
+    "com.mapbox."
+   ]
+  },
+  {
+   "name": "地图定位 · TomTom",
+   "prefixes": [
+    "com.tomtom."
+   ]
+  },
+  {
+   "name": "IM · 环信",
+   "prefixes": [
+    "com.hyphenate."
+   ]
+  },
+  {
+   "name": "IM · 融云",
+   "prefixes": [
+    "io.rong."
+   ]
+  },
+  {
+   "name": "IM · 网易云信NIM",
+   "prefixes": [
+    "com.netease.nimlib"
+   ]
+  },
+  {
+   "name": "IM · 腾讯云IM",
+   "prefixes": [
+    "com.tencent.qcloud.tim",
+    "com.tencent.imsdk"
+   ]
+  },
+  {
+   "name": "IM · 野火IM",
+   "prefixes": [
+    "cn.wildfirechat."
+   ]
+  },
+  {
+   "name": "IM · SendBird",
+   "prefixes": [
+    "com.sendbird."
+   ]
+  },
+  {
+   "name": "音视频 · 声网Agora",
+   "prefixes": [
+    "io.agora."
+   ]
+  },
+  {
+   "name": "音视频 · 腾讯TRTC/直播/播放器",
+   "prefixes": [
+    "com.tencent.trtc",
+    "com.tencent.liteav",
+    "com.tencent.rtmp"
+   ]
+  },
+  {
+   "name": "音视频 · 腾讯短视频UGCKit",
+   "prefixes": [
+    "com.tencent.ugc"
+   ]
+  },
+  {
+   "name": "音视频 · 即构ZEGO",
+   "prefixes": [
+    "im.zego."
+   ]
+  },
+  {
+   "name": "音视频 · 金山云直播",
+   "prefixes": [
+    "com.ksyun.media"
+   ]
+  },
+  {
+   "name": "音视频 · 七牛短视频PLDroid",
+   "prefixes": [
+    "com.qiniu.pili"
+   ]
+  },
+  {
+   "name": "音视频 · 阿里云播放器",
+   "prefixes": [
+    "com.aliyun.player"
+   ]
+  },
+  {
+   "name": "音视频 · 阿里云短视频",
+   "prefixes": [
+    "com.aliyun.svideosdk"
+   ]
+  },
+  {
+   "name": "音视频 · 阿里云通用",
+   "prefixes": [
+    "com.aliyun."
+   ]
+  },
+  {
+   "name": "音视频 · B站IjkPlayer",
+   "prefixes": [
+    "tv.danmaku.ijk.media"
+   ]
+  },
+  {
+   "name": "音视频 · Google ExoPlayer",
+   "prefixes": [
+    "com.google.android.exoplayer2"
+   ]
+  },
+  {
+   "name": "音视频 · Vitamio",
+   "prefixes": [
+    "io.vov.vitamio"
+   ]
+  },
+  {
+   "name": "音视频 · DanmakuFlameMaster",
+   "prefixes": [
+    "master.flame.danmaku"
+   ]
+  },
+  {
+   "name": "音视频 · 腾讯视频播放器",
+   "prefixes": [
+    "com.tencent.qqlive"
+   ]
+  },
+  {
+   "name": "网络 · OkHttp",
+   "prefixes": [
+    "okhttp3."
+   ]
+  },
+  {
+   "name": "网络 · Okio",
+   "prefixes": [
+    "okio."
+   ]
+  },
+  {
+   "name": "网络 · Retrofit",
+   "prefixes": [
+    "retrofit2."
+   ]
+  },
+  {
+   "name": "网络 · OkGo",
+   "prefixes": [
+    "com.lzy.okgo"
+   ]
+  },
+  {
+   "name": "网络 · Volley",
+   "prefixes": [
+    "com.android.volley"
+   ]
+  },
+  {
+   "name": "网络 · AndroidAsync",
+   "prefixes": [
+    "com.koushikdutta."
+   ]
+  },
+  {
+   "name": "网络 · Netty",
+   "prefixes": [
+    "io.netty."
+   ]
+  },
+  {
+   "name": "网络 · Apollo GraphQL",
+   "prefixes": [
+    "com.apollographql.apollo"
+   ]
+  },
+  {
+   "name": "网络 · Cronet",
+   "prefixes": [
+    "org.chromium.net"
+   ]
+  },
+  {
+   "name": "网络 · 腾讯Mars",
+   "prefixes": [
+    "com.tencent.mars"
+   ]
+  },
+  {
+   "name": "序列化 · Gson",
+   "prefixes": [
+    "com.google.gson"
+   ]
+  },
+  {
+   "name": "序列化 · Fastjson",
+   "prefixes": [
+    "com.alibaba.fastjson"
+   ]
+  },
+  {
+   "name": "序列化 · Jackson",
+   "prefixes": [
+    "com.fasterxml.jackson"
+   ]
+  },
+  {
+   "name": "序列化 · Protobuf",
+   "prefixes": [
+    "com.google.protobuf"
+   ]
+  },
+  {
+   "name": "加密 · BouncyCastle",
+   "prefixes": [
+    "org.bouncycastle"
+   ]
+  },
+  {
+   "name": "加密 · Conscrypt",
+   "prefixes": [
+    "com.android.org.conscrypt"
+   ]
+  },
+  {
+   "name": "数据库 · SQLCipher",
+   "prefixes": [
+    "net.sqlcipher"
+   ]
+  },
+  {
+   "name": "数据库 · GreenDAO",
+   "prefixes": [
+    "org.greenrobot.greendao"
+   ]
+  },
+  {
+   "name": "数据库 · Realm",
+   "prefixes": [
+    "io.realm."
+   ]
+  },
+  {
+   "name": "数据库 · ObjectBox",
+   "prefixes": [
+    "io.objectbox."
+   ]
+  },
+  {
+   "name": "数据库 · MMKV(腾讯)",
+   "prefixes": [
+    "com.tencent.mmkv"
+   ]
+  },
+  {
+   "name": "数据库 · WCDB(腾讯)",
+   "prefixes": [
+    "com.tencent.wcdb"
+   ]
+  },
+  {
+   "name": "数据库 · LitePal",
+   "prefixes": [
+    "org.litepal."
+   ]
+  },
+  {
+   "name": "数据库 · SugarORM",
+   "prefixes": [
+    "com.orm."
+   ]
+  },
+  {
+   "name": "数据库 · DBFlow",
+   "prefixes": [
+    "com.raizlabs.android.dbflow"
+   ]
+  },
+  {
+   "name": "数据库 · PaperDB",
+   "prefixes": [
+    "io.paperdb."
+   ]
+  },
+  {
+   "name": "数据库 · Room",
+   "prefixes": [
+    "androidx.room"
+   ]
+  },
+  {
+   "name": "数据库 · SQLDelight",
+   "prefixes": [
+    "com.squareup.sqldelight"
+   ]
+  },
+  {
+   "name": "框架 · AndroidX",
+   "prefixes": [
+    "androidx."
+   ]
+  },
+  {
+   "name": "框架 · Kotlin标准库",
+   "prefixes": [
+    "kotlin."
+   ]
+  },
+  {
+   "name": "框架 · Kotlin协程",
+   "prefixes": [
+    "kotlinx.coroutines"
+   ]
+  },
+  {
+   "name": "框架 · RxJava",
+   "prefixes": [
+    "io.reactivex."
+   ]
+  },
+  {
+   "name": "框架 · RxAndroid",
+   "prefixes": [
+    "io.reactivex.android"
+   ]
+  },
+  {
+   "name": "框架 · Dagger/Hilt",
+   "prefixes": [
+    "dagger."
+   ]
+  },
+  {
+   "name": "框架 · Koin",
+   "prefixes": [
+    "org.koin."
+   ]
+  },
+  {
+   "name": "框架 · EventBus",
+   "prefixes": [
+    "org.greenrobot.eventbus"
+   ]
+  },
+  {
+   "name": "框架 · Otto",
+   "prefixes": [
+    "com.squareup.otto"
+   ]
+  },
+  {
+   "name": "框架 · ButterKnife",
+   "prefixes": [
+    "butterknife."
+   ]
+  },
+  {
+   "name": "框架 · AndroidAnnotations",
+   "prefixes": [
+    "org.androidannotations"
+   ]
+  },
+  {
+   "name": "框架 · Apache Commons",
+   "prefixes": [
+    "org.apache.commons"
+   ]
+  },
+  {
+   "name": "框架 · Material Components",
+   "prefixes": [
+    "com.google.android.material"
+   ]
+  },
+  {
+   "name": "框架 · Flutter",
+   "prefixes": [
+    "io.flutter."
+   ]
+  },
+  {
+   "name": "框架 · React Native",
+   "prefixes": [
+    "com.facebook.react"
+   ]
+  },
+  {
+   "name": "框架 · Cordova",
+   "prefixes": [
+    "org.apache.cordova"
+   ]
+  },
+  {
+   "name": "框架 · Weex(阿里)",
+   "prefixes": [
+    "com.taobao.weex"
+   ]
+  },
+  {
+   "name": "框架 · Unity",
+   "prefixes": [
+    "com.unity3d.player"
+   ]
+  },
+  {
+   "name": "框架 · Cocos2d-x",
+   "prefixes": [
+    "org.cocos2dx.lib"
+   ]
+  },
+  {
+   "name": "框架 · DCloud uni-app",
+   "prefixes": [
+    "io.dcloud."
+   ]
+  },
+  {
+   "name": "框架 · Xamarin/Mono",
+   "prefixes": [
+    "mono."
+   ]
+  },
+  {
+   "name": "框架 · PhoneGap",
+   "prefixes": [
+    "com.phonegap."
+   ]
+  },
+  {
+   "name": "框架 · Timber日志",
+   "prefixes": [
+    "timber.log"
+   ]
+  },
+  {
+   "name": "框架 · AndroidUtilCode",
+   "prefixes": [
+    "com.blankj.utilcode"
+   ]
+  },
+  {
+   "name": "框架 · Logger(Orhanobut)",
+   "prefixes": [
+    "com.orhanobut.logger"
+   ]
+  },
+  {
+   "name": "框架 · AspectJ",
+   "prefixes": [
+    "org.aspectj."
+   ]
+  },
+  {
+   "name": "框架 · Lottie动画",
+   "prefixes": [
+    "com.airbnb.lottie"
+   ]
+  },
+  {
+   "name": "图片 · Glide",
+   "prefixes": [
+    "com.bumptech.glide"
+   ]
+  },
+  {
+   "name": "图片 · Fresco",
+   "prefixes": [
+    "com.facebook.fresco"
+   ]
+  },
+  {
+   "name": "图片 · Picasso",
+   "prefixes": [
+    "com.squareup.picasso"
+   ]
+  },
+  {
+   "name": "图片 · Coil",
+   "prefixes": [
+    "coil."
+   ]
+  },
+  {
+   "name": "图片 · UniversalImageLoader",
+   "prefixes": [
+    "com.nostra13.universalimageloader"
+   ]
+  },
+  {
+   "name": "图片 · Luban压缩",
+   "prefixes": [
+    "top.zibin.luban"
+   ]
+  },
+  {
+   "name": "图片 · uCrop裁剪",
+   "prefixes": [
+    "com.yalantis.ucrop"
+   ]
+  },
+  {
+   "name": "图片 · Matisse选择器",
+   "prefixes": [
+    "com.zhihu.matisse"
+   ]
+  },
+  {
+   "name": "图片 · TakePhoto",
+   "prefixes": [
+    "com.jph.takephoto"
+   ]
+  },
+  {
+   "name": "图片 · PhotoView",
+   "prefixes": [
+    "com.github.chrisbanes.photoview"
+   ]
+  },
+  {
+   "name": "图片 · RoundedImageView",
+   "prefixes": [
+    "com.makeramen.roundedimageview"
+   ]
+  },
+  {
+   "name": "图片 · GlideTransformations",
+   "prefixes": [
+    "jp.wasabeef.glide.transformations"
+   ]
+  },
+  {
+   "name": "扫码/相机 · ZXing",
+   "prefixes": [
+    "com.google.zxing"
+   ]
+  },
+  {
+   "name": "扫码/相机 · 华为ScanKit",
+   "prefixes": [
+    "com.huawei.hms.scankit"
+   ]
+  },
+  {
+   "name": "扫码/相机 · ZBar",
+   "prefixes": [
+    "me.dm7.barcodescanner"
+   ]
+  },
+  {
+   "name": "扫码/相机 · BGAQRCode",
+   "prefixes": [
+    "cn.bingoogolapple."
+   ]
+  },
+  {
+   "name": "扫码/相机 · CameraX",
+   "prefixes": [
+    "androidx.camera"
+   ]
+  },
+  {
+   "name": "扫码/相机 · 腾讯TBS/X5内核",
+   "prefixes": [
+    "com.tencent.smtt",
+    "com.tencent.tbs"
+   ]
+  },
+  {
+   "name": "工具 · PermissionsDispatcher",
+   "prefixes": [
+    "permissions.dispatcher"
+   ]
+  },
+  {
+   "name": "工具 · EasyPermissions",
+   "prefixes": [
+    "pub.devrel.easypermissions"
+   ]
+  },
+  {
+   "name": "工具 · RxPermissions",
+   "prefixes": [
+    "com.tbruyelle.rxpermissions"
+   ]
+  },
+  {
+   "name": "工具 · FileDownloader",
+   "prefixes": [
+    "com.liulishuo.filedownloader"
+   ]
+  },
+  {
+   "name": "工具 · StatusBarCompat",
+   "prefixes": [
+    "com.gyf.barlibrary"
+   ]
+  },
+  {
+   "name": "工具 · SmartRefreshLayout",
+   "prefixes": [
+    "com.scwang.smartrefresh"
+   ]
+  },
+  {
+   "name": "工具 · Banner轮播",
+   "prefixes": [
+    "com.youth.banner"
+   ]
+  },
+  {
+   "name": "工具 · AndroidPicker",
+   "prefixes": [
+    "com.bigkoo.pickerview"
+   ]
+  },
+  {
+   "name": "工具 · MaterialDialogs",
+   "prefixes": [
+    "com.afollestad.materialdialogs"
+   ]
+  },
+  {
+   "name": "工具 · MPAndroidChart图表",
+   "prefixes": [
+    "com.github.mikephil.charting"
+   ]
+  },
+  {
+   "name": "语音 · 科大讯飞",
+   "prefixes": [
+    "com.iflytek."
+   ]
+  },
+  {
+   "name": "语音 · 百度语音/合成",
+   "prefixes": [
+    "com.baidu.speech"
+   ]
+  },
+  {
+   "name": "语音 · 思必驰",
+   "prefixes": [
+    "com.aispeech."
+   ]
+  },
+  {
+   "name": "语音 · 云知声",
+   "prefixes": [
+    "com.unisound."
+   ]
+  },
+  {
+   "name": "OCR · 百度OCR",
+   "prefixes": [
+    "com.baidu.ocr"
+   ]
+  },
+  {
+   "name": "热修复 · 腾讯Tinker",
+   "prefixes": [
+    "com.tencent.tinker"
+   ]
+  },
+  {
+   "name": "热修复 · 阿里Sophix",
+   "prefixes": [
+    "com.taobao.sophix"
+   ]
+  },
+  {
+   "name": "热修复 · 阿里AndFix",
+   "prefixes": [
+    "com.alipay.euler"
+   ]
+  },
+  {
+   "name": "热修复 · 美团Robust",
+   "prefixes": [
+    "com.meituan.robust"
+   ]
+  },
+  {
+   "name": "热修复 · TinkerPatch",
+   "prefixes": [
+    "com.tinkerpatch."
+   ]
+  },
+  {
+   "name": "插件化 · RePlugin(360)",
+   "prefixes": [
+    "com.qihoo360.replugin"
+   ]
+  },
+  {
+   "name": "插件化 · VirtualAPK(滴滴)",
+   "prefixes": [
+    "com.didi.virtualapk"
+   ]
+  },
+  {
+   "name": "插件化 · Shadow(腾讯)",
+   "prefixes": [
+    "com.tencent.shadow.core"
+   ]
+  },
+  {
+   "name": "插件化 · DroidPlugin(360)",
+   "prefixes": [
+    "com.morgoo.droidplugin"
+   ]
+  },
+  {
+   "name": "插件化 · Small(wequick)",
+   "prefixes": [
+    "net.wequick.small"
+   ]
+  },
+  {
+   "name": "APM · 腾讯Matrix",
+   "prefixes": [
+    "com.tencent.matrix"
+   ]
+  },
+  {
+   "name": "监控 · 腾讯Bugly",
+   "prefixes": [
+    "com.tencent.bugly"
+   ]
+  },
+  {
+   "name": "监控 · Firebase Crashlytics",
+   "prefixes": [
+    "com.google.firebase.crashlytics"
+   ]
+  },
+  {
+   "name": "监控 · Sentry",
+   "prefixes": [
+    "io.sentry."
+   ]
+  },
+  {
+   "name": "监控 · ACRA",
+   "prefixes": [
+    "org.acra."
+   ]
+  },
+  {
+   "name": "监控 · Bugtags",
+   "prefixes": [
+    "com.bugtags.library"
+   ]
+  },
+  {
+   "name": "监控 · 听云APM",
+   "prefixes": [
+    "com.networkbench.agent"
+   ]
+  },
+  {
+   "name": "监控 · 爱奇艺XCrash",
+   "prefixes": [
+    "com.iqiyi.xcrash"
+   ]
+  },
+  {
+   "name": "监控 · LeakCanary",
+   "prefixes": [
+    "com.squareup.leakcanary"
+   ]
+  },
+  {
+   "name": "监控 · BlockCanary",
+   "prefixes": [
+    "com.github.moduth.blockcanary"
+   ]
+  },
+  {
+   "name": "监控 · ANRWatchDog",
+   "prefixes": [
+    "com.github.anrwatchdog"
+   ]
+  },
+  {
+   "name": "监控 · Stetho",
+   "prefixes": [
+    "com.facebook.stetho"
+   ]
+  },
+  {
+   "name": "安全 · 阿里无线保镖",
+   "prefixes": [
+    "com.alibaba.wireless.security"
+   ]
+  },
+  {
+   "name": "安全 · 阿里SecurityGuard",
+   "prefixes": [
+    "com.taobao.wireless.security"
+   ]
+  },
+  {
+   "name": "安全 · 数美验证",
+   "prefixes": [
+    "com.ishumei."
+   ]
+  },
+  {
+   "name": "安全 · 同盾",
+   "prefixes": [
+    "cn.tongdun."
+   ]
+  },
+  {
+   "name": "安全 · 极验验证",
+   "prefixes": [
+    "com.geetest."
+   ]
+  },
+  {
+   "name": "安全 · 网易易盾SDK",
+   "prefixes": [
+    "com.netease.nis"
+   ]
+  },
+  {
+   "name": "安全 · Google Play Integrity",
+   "prefixes": [
+    "com.google.android.play.core"
+   ]
+  },
+  {
+   "name": "安全 · Google SafetyNet",
+   "prefixes": [
+    "com.google.android.gms.safetynet"
+   ]
+  },
+  {
+   "name": "安全 · Firebase App Check",
+   "prefixes": [
+    "com.google.firebase.appcheck"
+   ]
+  },
+  {
+   "name": "云服务 · 阿里云通用",
+   "prefixes": [
+    "com.alibaba."
+   ]
+  },
+  {
+   "name": "云服务 · 阿里云OSS",
+   "prefixes": [
+    "com.alibaba.sdk.android.oss"
+   ]
+  },
+  {
+   "name": "云服务 · 腾讯云COS",
+   "prefixes": [
+    "com.tencent.cos.xml"
+   ]
+  },
+  {
+   "name": "云服务 · 腾讯云通用",
+   "prefixes": [
+    "com.tencent.qcloud"
+   ]
+  },
+  {
+   "name": "云服务 · 七牛云存储",
+   "prefixes": [
+    "com.qiniu.android"
+   ]
+  },
+  {
+   "name": "云服务 · 又拍云",
+   "prefixes": [
+    "com.upyun."
+   ]
+  },
+  {
+   "name": "云服务 · 华为AGC",
+   "prefixes": [
+    "com.huawei.agconnect"
+   ]
+  },
+  {
+   "name": "云服务 · AWS SDK",
+   "prefixes": [
+    "com.amazonaws."
+   ]
+  },
+  {
+   "name": "云服务 · 百度BOS",
+   "prefixes": [
+    "com.baidubce."
+   ]
+  },
+  {
+   "name": "云服务 · Google GMS通用",
+   "prefixes": [
+    "com.google.android.gms."
+   ]
+  }
+ ]
+}

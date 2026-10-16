@@ -1,0 +1,666 @@
+{
+ "rules": [
+  {
+   "vendor": "腾讯乐固(旧版)",
+   "so": [
+    "libtup.so",
+    "liblegudb.so",
+    "libshell.so",
+    "libshella.so",
+    "libshellx.so",
+    "libshella-2.10.2.3.so",
+    "libshella-2.9.0.2.so",
+    "libshella-4.1.0.15.so",
+    "libshella-4.1.0.19.so",
+    "libshellx-2.10.6.0.so",
+    "mix.dex",
+    "mixz.dex",
+    "tencent_stub",
+    "stub_tengxun"
+   ],
+   "classes": [
+    "com/tencent/StubShell/TxAppEntry"
+   ]
+  },
+  {
+   "vendor": "腾讯乐固(日版)",
+   "so": [
+    "libshel1x.so"
+   ],
+   "classes": []
+  },
+  {
+   "vendor": "腾讯云加固(乐固云)",
+   "so": [
+    "libshell-super.so",
+    "libshell-super.2019.so",
+    "libshell-super.2020.so",
+    "libshell-super.2021.so",
+    "libshellx-super.2019.so",
+    "libshellx-super.2021.so",
+    "tencent_sub"
+   ],
+   "classes": []
+  },
+  {
+   "vendor": "腾讯云移动应用安全(御安全)",
+   "so": [
+    "libtosprotection.so",
+    "libtosprotection.armeabi.so",
+    "libtosprotection.armeabi-v7a.so",
+    "libtosprotection.x86.so",
+    "tosversion",
+    "tosprotection",
+    "libbugly-yaq.so",
+    "libzbugly-yaq.so",
+    "libtmsdk-xxx-mfr.so",
+    "t86",
+    "0oo00l111l1l",
+    "0oo00oo01l1l",
+    "o0ooooo0oood.dat",
+    "000000011111.dex",
+    "000000111111.dex",
+    "00000o11111.dex",
+    "000001111111",
+    "000o00ll111l.dex",
+    "00o000ll111l.dex",
+    "libhamster.so"
+   ],
+   "classes": [
+    "MyWrapperProxyApplication"
+   ]
+  },
+  {
+   "vendor": "腾讯乐固(VMP)",
+   "so": [
+    "libxgvipsecurity.so",
+    "libwsdataencryption_azapp.so",
+    "libwssec.so",
+    "libwssecv.so",
+    "wsdal.jar",
+    "wslib",
+    "wsseca.jar",
+    "wssecb.jar",
+    "wssecc.jar",
+    "wssecd.jar"
+   ],
+   "classes": []
+  },
+  {
+   "vendor": "腾讯手游加固",
+   "so": [
+    "libtprt.so"
+   ],
+   "classes": []
+  },
+  {
+   "vendor": "腾讯Bugly(加固辅助特征)",
+   "so": [
+    "libbugly.so"
+   ],
+   "classes": []
+  },
+  {
+   "vendor": "360加固",
+   "so": [
+    "libjiagu.so",
+    "libjiagu_art.so",
+    "libjiagu_x86.so",
+    "libjiagu_x64.so",
+    "libjiagu_a64.so",
+    "libjiagu_ls.so",
+    "libprotectclass.so",
+    "libsafemanageservice.so",
+    ".appkey"
+   ],
+   "classes": [
+    "com/stub/StubApp",
+    "com/qihoo/util",
+    "com/qihoo/util/QHDialog"
+   ]
+  },
+  {
+   "vendor": "360加固(新版DTC)",
+   "so": [
+    "libjgdtc.so",
+    "libjgdtc_x86.so",
+    "libjgdtc_x64.so",
+    "libjgdtc_a64.so",
+    "libjgdtc_art.so"
+   ],
+   "classes": []
+  },
+  {
+   "vendor": "360加固(伪壳/apktool助手)",
+   "so": [],
+   "classes": [
+    "com/qihoo/util/stub2678363137"
+   ]
+  },
+  {
+   "vendor": "梆梆安全(免费版)",
+   "so": [
+    "libsecexe.so",
+    "libsecmain.so",
+    "libsecshell.so",
+    "libsecshell-x86.so",
+    "libsecshell_art.so",
+    "libsecshel1.so",
+    "secdata0.jar",
+    "bangcleclasses.jar",
+    "bangcle_classes.jar",
+    "bangcleplugin/container.dex"
+   ],
+   "classes": []
+  },
+  {
+   "vendor": "梆梆安全(企业版)",
+   "so": [
+    "libdexhelper.so",
+    "libdexhelper-x86.so",
+    "classes0.jar"
+   ],
+   "classes": [
+    "com/secneo/apkwrapper",
+    "com/secshell/secData/ApplicationWrapper",
+    "com/SecShell/SecShell/ApplicationWrapper"
+   ]
+  },
+  {
+   "vendor": "梆梆安全(定制版)",
+   "so": [
+    "dexhelper.so",
+    "classes.jar"
+   ],
+   "classes": []
+  },
+  {
+   "vendor": "梆梆安全(国际版SecNeo)",
+   "so": [
+    "libdexjni.so",
+    "libdatajar.so"
+   ],
+   "classes": []
+  },
+  {
+   "vendor": "爱加密",
+   "so": [
+    "libexec.so",
+    "libexecmain.so",
+    "libijiami.so",
+    "ijiami.dat",
+    "af.bin",
+    "signed.bin",
+    "ijm_lib"
+   ],
+   "classes": [
+    "s/h/e/l/l/S",
+    "s/h/e/l/l"
+   ]
+  },
+  {
+   "vendor": "爱加密(3代壳)",
+   "so": [
+    "libexecv3.so",
+    "ijiami3.ajm"
+   ],
+   "classes": []
+  },
+  {
+   "vendor": "爱加密(5代壳)",
+   "so": [
+    "libijmdataencryption.so",
+    "ijmdal.data"
+   ],
+   "classes": []
+  },
+  {
+   "vendor": "爱加密(企业版)",
+   "so": [
+    "ijiami.ajm"
+   ],
+   "classes": []
+  },
+  {
+   "vendor": "娜迦加固",
+   "so": [
+    "libchaosvmp.so",
+    "libddog.so",
+    "libfdog.so",
+    "libhdog.so"
+   ],
+   "classes": []
+  },
+  {
+   "vendor": "娜迦加固(企业版)",
+   "so": [
+    "libedog.so"
+   ],
+   "classes": []
+  },
+  {
+   "vendor": "娜迦加固(开发者试用版VMP)",
+   "so": [
+    "libvdog.so",
+    "libvdog-x86.so"
+   ],
+   "classes": []
+  },
+  {
+   "vendor": "娜迦加固(2022新版)",
+   "so": [
+    "libxloader.so",
+    "maindata/fake_classes.dex"
+   ],
+   "classes": []
+  },
+  {
+   "vendor": "阿里聚安全",
+   "so": [
+    "aliprotect.dat",
+    "libsgmain.so",
+    "libsgsecuritybody.so",
+    "libmobisec.so",
+    "libfakejni.so",
+    "libzuma.so",
+    "libzumadata.so",
+    "libpreverify1.so"
+   ],
+   "classes": []
+  },
+  {
+   "vendor": "阿里云加固",
+   "so": [
+    "libdemolish.so",
+    "libdemolishdata.so"
+   ],
+   "classes": []
+  },
+  {
+   "vendor": "阿里聚安全(新版incubator)",
+   "so": [
+    "libincubator.so"
+   ],
+   "classes": []
+  },
+  {
+   "vendor": "阿里安全(Aegis摩斯盾)",
+   "so": [
+    "aegis.mf",
+    "aegis.sig",
+    "aegis1.dat",
+    "aegis2.dat",
+    "aegis3.dat",
+    "shield.dat",
+    "nmsscr.nmss",
+    "nmssey.nmss",
+    "nmsskc.nmss"
+   ],
+   "classes": []
+  },
+  {
+   "vendor": "百度加固",
+   "so": [
+    "libbaiduprotect.so",
+    "libbaiduprotect_x86.so",
+    "libbaiduprotect_art.so",
+    "baiduprotect1.jar",
+    "baiduprotect.jar"
+   ],
+   "classes": [
+    "com/baidu/protect/StubApplication"
+   ]
+  },
+  {
+   "vendor": "网易易盾",
+   "so": [
+    "libnesec.so",
+    "libyidun.so",
+    "libyidunx.so",
+    "nedata.db",
+    "nedig.properties"
+   ],
+   "classes": [
+    "com/netease/nis/wrapper/Entry",
+    "com/netease/nis/wrapper/MyJni",
+    "com/netease/nis"
+   ]
+  },
+  {
+   "vendor": "几维安全",
+   "so": [
+    "libkwscmm.so",
+    "libkwscr.so",
+    "libkwslinker.so",
+    "kdpdata.so",
+    "libkdp.so",
+    "dex.dat",
+    "libkiwicrash.so",
+    "libkiwi_dumper.so",
+    "libkwprotectsdk.so",
+    "libkwsdataenc.so",
+    "libkadp.so",
+    "libwhite-box.so"
+   ],
+   "classes": [
+    "com/Kiwisec/KiwiSecApplication",
+    "com/Kiwisec/ProxyApplication"
+   ]
+  },
+  {
+   "vendor": "顶象科技",
+   "so": [
+    "libdxfvmp.so",
+    "libdingrtc.so",
+    "libx3g.so",
+    "libjni.so",
+    "libsys_misc.so",
+    "csn.data",
+    "csn.data1",
+    "__param.data",
+    "__version.txt",
+    "dsnstub000.vd"
+   ],
+   "classes": [
+    "cn/securitystack/stee/AppStub"
+   ]
+  },
+  {
+   "vendor": "通付盾",
+   "so": [
+    "libtfent.so",
+    "libegis.so",
+    "libnsaferonly.so",
+    "libgeiri.so",
+    "libgeiri-x86.so",
+    "libegis.a"
+   ],
+   "classes": []
+  },
+  {
+   "vendor": "盛大加固",
+   "so": [
+    "libapssec.so"
+   ],
+   "classes": []
+  },
+  {
+   "vendor": "瑞星加固",
+   "so": [
+    "librsprotect.so"
+   ],
+   "classes": []
+  },
+  {
+   "vendor": "海云安加固",
+   "so": [
+    "libhya.so",
+    "libhyasec.so",
+    "libitsec.so",
+    "itse"
+   ],
+   "classes": [
+    "c/b/c/b"
+   ]
+  },
+  {
+   "vendor": "珊瑚灵御",
+   "so": [
+    "libreincp.so",
+    "libreincp_x86.so"
+   ],
+   "classes": [
+    "com/coral/util/StubApplication"
+   ]
+  },
+  {
+   "vendor": "UU安全加固",
+   "so": [
+    "libuusafe.jar.so",
+    "libuusafe.so",
+    "libuusafeempty.so"
+   ],
+   "classes": []
+  },
+  {
+   "vendor": "中国移动加固",
+   "so": [
+    "libcmvmp.so",
+    "libmogosec_dex.so",
+    "libmogosec_sodecrypt.so",
+    "libmogosecurity.so",
+    "ibmogosecurity.so",
+    "mogosec_classes",
+    "mogosec_data",
+    "mogosec_dexinfo",
+    "mogosec_march"
+   ],
+   "classes": []
+  },
+  {
+   "vendor": "中国移动魔固云",
+   "so": [],
+   "classes": [
+    "com/mogosec/AppMgr"
+   ]
+  },
+  {
+   "vendor": "网秦加固",
+   "so": [
+    "libnqshield.so"
+   ],
+   "classes": []
+  },
+  {
+   "vendor": "国信灵通",
+   "so": [
+    "libnqshieldx.so"
+   ],
+   "classes": []
+  },
+  {
+   "vendor": "启明星辰(天镜)",
+   "so": [
+    "libvensec.so",
+    "libvenustech.so"
+   ],
+   "classes": []
+  },
+  {
+   "vendor": "深盾安全(Virbox Protector)",
+   "so": [
+    "libvirbox32.so",
+    "libvirbox64.so",
+    "libsdshell.so",
+    "libdshields.so"
+   ],
+   "classes": []
+  },
+  {
+   "vendor": "蛮犀安全",
+   "so": [
+    "libmxs.so",
+    "libmanxi.so",
+    "libdsafeshell.so",
+    "libmxacc.so",
+    "mxsafe.data",
+    "mxsafe.config",
+    "mxsafe.jar"
+   ],
+   "classes": []
+  },
+  {
+   "vendor": "CFCA加固",
+   "so": [
+    "libbasec.so",
+    "libbasec_x86.so",
+    "libsecenh.so",
+    "libsecenh_a64.so",
+    "libsecenh_x86.so",
+    "my_classes.jar",
+    "respatcher.jar",
+    "res.zip"
+   ],
+   "classes": []
+  },
+  {
+   "vendor": "能信安(Nesun)",
+   "so": [
+    "libzprotect.so"
+   ],
+   "classes": []
+  },
+  {
+   "vendor": "恒安嘉新(Eversafe)",
+   "so": [
+    "libeversafe.so",
+    "libeversafe-loader.so",
+    "eversafe_"
+   ],
+   "classes": []
+  },
+  {
+   "vendor": "AppIron加固(安固)",
+   "so": [
+    "libappiron-jni_v.so",
+    "libappironexpress_v.so",
+    "appiron"
+   ],
+   "classes": []
+  },
+  {
+   "vendor": "AppCamo壳",
+   "so": [
+    "libalib.so"
+   ],
+   "classes": []
+  },
+  {
+   "vendor": "AppSuit壳",
+   "so": [
+    "libappsuit.so",
+    "appsuit/momo",
+    "appsuit/meme"
+   ],
+   "classes": []
+  },
+  {
+   "vendor": "Kiro壳",
+   "so": [
+    "libkiroro.so",
+    "sbox"
+   ],
+   "classes": []
+  },
+  {
+   "vendor": "QDBH壳",
+   "so": [
+    "qdbh"
+   ],
+   "classes": []
+  },
+  {
+   "vendor": "中国联通加固",
+   "so": [
+    "libdecrypt.jar",
+    "libunicomsdk.jar"
+   ],
+   "classes": []
+  },
+  {
+   "vendor": "螃蟹壳(Pangxie)",
+   "so": [
+    "libnsecure.so"
+   ],
+   "classes": []
+  },
+  {
+   "vendor": "DXShield加固",
+   "so": [
+    "libdxbase.so",
+    "dxinfo.xml"
+   ],
+   "classes": []
+  },
+  {
+   "vendor": "Gpresto(ATG)壳",
+   "so": [
+    "libatg_l.so",
+    "atg_e",
+    "libdata.so"
+   ],
+   "classes": []
+  },
+  {
+   "vendor": "DexShellx壳",
+   "so": [
+    "libvmdexshellx.so",
+    "libdexshell.so",
+    "dexshell.mp3"
+   ],
+   "classes": []
+  },
+  {
+   "vendor": "APKProtect",
+   "so": [
+    "libapkprotect.so",
+    "apkprotect.com/key.dat",
+    "apkprotect.com/",
+    "apkprotect-build.properties",
+    "apkprotect.bin",
+    "apkprotect/classes.dex.bin",
+    "meta-inf/apkprotect.rsa",
+    "meta-inf/apkprotect.sf"
+   ],
+   "classes": []
+  },
+  {
+   "vendor": "apktoolplus",
+   "so": [
+    "libapktoolplus_jiagu.so",
+    "jiagu_data.bin",
+    "sign.bin"
+   ],
+   "classes": [
+    "com/linchaolong/apktoolplus/jiagu/ProxyApplication"
+   ]
+  },
+  {
+   "vendor": "未知壳(通用代理Application)",
+   "so": [],
+   "classes": [
+    "com/wrapper/proxyapplication/WrapperProxyApplication"
+   ]
+  },
+  {
+   "vendor": "未知壳(libapk-protect)",
+   "so": [
+    "libapk-protect.so"
+   ],
+   "classes": []
+  },
+  {
+   "vendor": "OPPO应用加固",
+   "so": [
+    "oppoprotect.so",
+    "oppoprotect2019.so",
+    "oppoprotect2018.so"
+   ],
+   "classes": []
+  },
+  {
+   "vendor": "OPPO安全检测SDK",
+   "so": [
+    "libomesstdsco.so"
+   ],
+   "classes": []
+  },
+  {
+   "vendor": "Kiwisec 企业定制(几维变体)",
+   "so": [
+    "libkwsdataenc.so.bak"
+   ],
+   "classes": []
+  }
+ ]
+}
